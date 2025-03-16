@@ -1,9 +1,9 @@
 # Lập trình ứng dụng mạng
 # Nhóm 13 đề tài 12
 
-Thành viên
-Hồ Hữu Đại      3122410066
-Huỳnh Tấn Dương 3122410061
+# Thành viên
+- Hồ Hữu Đại       3122410066
+- Huỳnh Tấn Dương  3122410061
 
 # Mô tả ứng dụng
 ĐỀ TÀI 12: ỨNG DỤNG TRA CỨU THÔNG TIN ĐỊA LÝ
