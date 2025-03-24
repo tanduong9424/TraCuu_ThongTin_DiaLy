@@ -83,7 +83,13 @@ public class Server {
             Integer uv=values.getInt("uvIndex");//lấy chỉ số uv
             Integer humidity=values.getInt("humidity");//lấy độ ẩm
             
-            result+=tendialy+"/"+time+"/"+uv+"/"+temperature+"/"+humidity;
+            double kinhdo=location.getDouble("lon");//longitude 
+            //kinhdo = Math.round(kinhdo * 100.0) / 100.0;// Làm tròn đến 3 chữ số thập phân
+
+            double vido=location.getDouble("lat");//latitude 
+            //vido = Math.round(vido * 100.0) / 100.0;// Làm tròn đến 3 chữ số thập phân
+            
+            result+=tendialy+"/"+time+"/"+uv+"/"+temperature+"/"+humidity+"/"+kinhdo+"/"+vido;
 
         } catch(Exception e){
             System.err.println(e.getMessage());

@@ -4,12 +4,15 @@
  */
 package DoAnUngDungMang;
 import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
+import javax.swing.JOptionPane;
 //import java.util.Scanner;
 
 /**
@@ -25,15 +28,33 @@ public class Client extends javax.swing.JFrame {
      * Creates new form Client
      */
      public Client(String host, int port, int bufferSize){
+        setupWindowListener();
         initComponents();
         this.host = host;
         this.port = port;
         this.bufferSize = bufferSize;
     }
-     
+    private void setupWindowListener() {//hiển thi hộp thoại xác nhận đóng cửa sổ
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                // Xử lý sự kiện đóng ở đây
+                int confirmed = JOptionPane.showConfirmDialog(null,
+                        "Bạn có chắc chắn muốn thoát khỏi kết quả tìm kiếm này?", "Xác nhận thoát",
+                        JOptionPane.YES_NO_OPTION);
+                if (confirmed == JOptionPane.YES_OPTION) {
+                    dispose(); // Đóng cửa sổ (giải phóng tài nguyên)
+                }
+            }
+        });
+    }
+    
+    
     public Client() {
+        setupWindowListener();
         initComponents();
     }
+    
     public void start(String diadiem){
         try(DatagramSocket socket = new DatagramSocket()){
             socket.setSoTimeout(5000); // đặt thời gian timeout cho receive là 5s
@@ -46,7 +67,7 @@ public class Client extends javax.swing.JFrame {
                 System.out.println("Client nhận: " + receivedData);
                 String [] parts =receivedData.split("/");
                 
-                updateThoiTiet(parts[0],parts[1],parts[2],parts[3],parts[4]);
+                updateThoiTiet(parts[0],parts[1],parts[2],parts[3],parts[4],parts[5],parts[6]);
                 flag=false;//ngưng lại chờ đến khi ấn nút tìm kiếm nữa
             }
         }catch(IOException e){
@@ -67,11 +88,11 @@ public class Client extends javax.swing.JFrame {
         byte[] dataBytes = Arrays.copyOf(packet.getData(), packet.getLength());
         return new String(dataBytes, StandardCharsets.UTF_8);
     }
-     public void updateThoiTiet(String diachi,String time, String csuv, String temper, String humidity ){
+     public void updateThoiTiet(String diachi,String time, String csuv, String temper, String humidity ,String kinhdo, String vido){
          ResultCity x=new ResultCity();
          x.setVisible(true);
          this.setVisible(false);
-         x.setThoiTiet(diachi,time,csuv,temper,humidity);
+         x.setThoiTiet(diachi,time,csuv,temper,humidity,kinhdo,vido);
      }
 
     
@@ -90,7 +111,7 @@ public class Client extends javax.swing.JFrame {
         image = new javax.swing.JLabel();
         search = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setLocation(new java.awt.Point(600, 280));
 
@@ -105,11 +126,6 @@ public class Client extends javax.swing.JFrame {
         inputvitri.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 inputvitriMouseClicked(evt);
-            }
-        });
-        inputvitri.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                inputvitriActionPerformed(evt);
             }
         });
         Mainlayout.add(inputvitri, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 60, 420, 50));
@@ -154,11 +170,6 @@ public class Client extends javax.swing.JFrame {
         inputvitri.setFocusable(true);
         inputvitri.requestFocusInWindow();
     }//GEN-LAST:event_inputvitriMouseClicked
-
-    private void inputvitriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputvitriActionPerformed
-        // TODO add your handling code here:
-        search.doClick();
-    }//GEN-LAST:event_inputvitriActionPerformed
 
     private void searchMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchMouseClicked
         // TODO add your handling code here:

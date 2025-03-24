@@ -1,0 +1,4069 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1742817427388,
+    "data": {
+        "page_loading_threshold": 10,
+        "filters": [
+            {
+                "title": "Your budget (for 4 nights)",
+                "field": "price"
+            },
+            {
+                "title": "Bed Preference",
+                "field": "tdb"
+            },
+            {
+                "title": "Room Facilities",
+                "field": "roomfacility"
+            },
+            {
+                "title": "Free cancellation ",
+                "field": "fc"
+            },
+            {
+                "field": "entire_place_bedroom_count",
+                "title": "Number of bedrooms"
+            },
+            {
+                "field": "mealplan",
+                "title": "Meals"
+            }
+        ],
+        "room_distribution": [
+            {
+                "adults": "1",
+                "children": []
+            }
+        ],
+        "applied_filters": [],
+        "unfiltered_primary_count": 3148,
+        "result": [
+            {
+                "hotel_id": 13292705,
+                "preferred_plus": 1,
+                "city_in_trans": "in Lang Co",
+                "review_nr": 4,
+                "has_swimming_pool": 1,
+                "extended": 0,
+                "default_wishlist_name": "Lang Co",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": 1,
+                "ribbon_text": "Breakfast included",
+                "default_language": "vi",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Exceptional",
+                "distances": [],
+                "class": 5,
+                "checkout": {
+                    "until": "12:00",
+                    "from": ""
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/628023619.jpg?k=5736c882687100c6c54d6efdc9337632faa40fb69f8993371134d1fecdbcf957&o=",
+                "longitude": 108.0781639,
+                "is_free_cancellable": 0,
+                "composite_price_breakdown": {
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "value": 8619107,
+                        "amount_rounded": "VND 8,619,107",
+                        "amount_unrounded": "VND 8,619,107",
+                        "currency": "VND"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 288.34",
+                        "amount_rounded": "€ 288",
+                        "value": 288.341051768518
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": ""
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 23.0672841414815,
+                        "amount_rounded": "€ 23",
+                        "amount_unrounded": "€ 23.07",
+                        "currency": "EUR"
+                    },
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 311.41",
+                        "amount_rounded": "€ 311",
+                        "value": 311.40833591
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "€ 77.85",
+                        "currency": "EUR",
+                        "value": 77.8520839775,
+                        "amount_rounded": "€ 78"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_unrounded": "€ 134.23",
+                        "currency": "EUR",
+                        "value": 134.227737225,
+                        "amount_rounded": "€ 134"
+                    },
+                    "discounted_amount": {
+                        "amount_rounded": "€ 226",
+                        "value": 225.50261299,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 225.50"
+                    },
+                    "all_inclusive_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 311.41",
+                        "amount_rounded": "€ 311",
+                        "value": 311.40833591
+                    },
+                    "strikethrough_amount": {
+                        "value": 536.9109489,
+                        "amount_rounded": "€ 537",
+                        "amount_unrounded": "€ 536.91",
+                        "currency": "EUR"
+                    },
+                    "excluded_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0",
+                        "amount_rounded": "€ 0",
+                        "value": 0
+                    },
+                    "items": [
+                        {
+                            "inclusion_type": "included",
+                            "details": "0 % City tax",
+                            "item_amount": {
+                                "amount_unrounded": "€ 0",
+                                "currency": "EUR",
+                                "value": 0,
+                                "amount_rounded": "€ 0"
+                            },
+                            "kind": "charge",
+                            "name": "City tax",
+                            "base": {
+                                "percentage": 0,
+                                "kind": "percentage"
+                            }
+                        },
+                        {
+                            "kind": "charge",
+                            "name": "VAT",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "inclusion_type": "included",
+                            "details": "8 % VAT",
+                            "item_amount": {
+                                "amount_unrounded": "€ 23.07",
+                                "currency": "EUR",
+                                "value": 23.0672841414815,
+                                "amount_rounded": "€ 23"
+                            }
+                        },
+                        {
+                            "item_amount": {
+                                "value": 225.50261299,
+                                "amount_rounded": "€ 226",
+                                "amount_unrounded": "€ 225.50",
+                                "currency": "EUR"
+                            },
+                            "identifier": "last-minute-deal",
+                            "details": "You’re getting a reduced rate because this property is offering a discount.",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "name": "Last-minute Deal",
+                            "kind": "discount"
+                        }
+                    ],
+                    "all_inclusive_amount_hotel_currency": {
+                        "value": 8619107,
+                        "amount_rounded": "VND 8,619,107",
+                        "amount_unrounded": "VND 8,619,107",
+                        "currency": "VND"
+                    }
+                },
+                "currencycode": "VND",
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "1329270510_405486625_0_1_0"
+                ],
+                "is_genius_deal": 0,
+                "id": "property_card_13292705",
+                "review_score": 9.5,
+                "accommodation_type": 206,
+                "type": "property_card",
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Entire villa – 110 m²</b>: 2 beds • 1 bedroom • 1 living room • 1 bathroom",
+                "has_free_parking": 1,
+                "main_photo_id": 628023619,
+                "class_is_estimated": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "updated_checkout": null,
+                "badges": [],
+                "preferred": 1,
+                "is_no_prepayment_block": 0,
+                "min_total_price": 8619107,
+                "ufi": 900048531,
+                "urgency_message": "Only 4 left at this price on Booking.com",
+                "countrycode": "vn",
+                "cant_book": null,
+                "city": "Hue",
+                "hotel_name": "Langco Bay Retreat",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "hotel_name_trans": "Langco Bay Retreat",
+                "latitude": 16.2422407,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "children_not_allowed": null
+            },
+            {
+                "hotel_id": 12171026,
+                "has_free_parking": 1,
+                "main_photo_id": 579090992,
+                "class_is_estimated": 0,
+                "hotel_has_vb_boost": 1,
+                "updated_checkin": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkout": null,
+                "preferred": 1,
+                "badges": [],
+                "is_no_prepayment_block": 0,
+                "min_total_price": 6670948.52419596,
+                "ufi": -3715584,
+                "countrycode": "vn",
+                "cant_book": null,
+                "hotel_name": "Reu Boutique Hotel",
+                "city": "Hoi An",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "latitude": 15.887637474895,
+                "checkin": {
+                    "from": "14:00",
+                    "until": "00:00"
+                },
+                "hotel_name_trans": "Reu Boutique Hotel",
+                "children_not_allowed": null,
+                "city_in_trans": "in Hoi An",
+                "preferred_plus": 1,
+                "extended": 0,
+                "review_nr": 80,
+                "has_swimming_pool": 1,
+                "default_wishlist_name": "Hoi An",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "default_language": "en",
+                "ribbon_text": "Breakfast included",
+                "class": 4,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Exceptional",
+                "distances": [],
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/579090992.jpg?k=3f1525049d24b6a06312964118977913c8f07cbcdf884e2260ddcf539b2827ea&o=",
+                "checkout": {
+                    "until": "12:00",
+                    "from": "00:00"
+                },
+                "composite_price_breakdown": {
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "€ 241.02",
+                        "currency": "EUR",
+                        "value": 241.0213701792,
+                        "amount_rounded": "€ 241"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_unrounded": "VND 6,670,949",
+                        "currency": "VND",
+                        "value": 6670948.52419596,
+                        "amount_rounded": "VND 6,670,949"
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR",
+                        "value": 0,
+                        "amount_rounded": "€ 0"
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "name": "TAX",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 20.4
+                            },
+                            "inclusion_type": "included",
+                            "details": null,
+                            "item_amount": {
+                                "amount_rounded": "€ 19",
+                                "value": 18.873161184,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 18.87"
+                            }
+                        },
+                        {
+                            "inclusion_type": "included",
+                            "details": null,
+                            "item_amount": {
+                                "amount_rounded": "€ 10",
+                                "value": 9.5846053856,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 9.58"
+                            },
+                            "kind": "charge",
+                            "name": "Service charge",
+                            "base": {
+                                "base_amount": 10.36,
+                                "kind": "per_stay"
+                            }
+                        }
+                    ],
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 28.46",
+                        "amount_rounded": "€ 28",
+                        "value": 28.4577665696
+                    },
+                    "gross_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 60.26",
+                        "amount_rounded": "€ 60",
+                        "value": 60.2553425448
+                    },
+                    "gross_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 241.02",
+                        "amount_rounded": "€ 241",
+                        "value": 241.0213701792
+                    },
+                    "net_amount": {
+                        "amount_rounded": "€ 213",
+                        "value": 212.5636036096,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 212.56"
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": "",
+                        "mode": "all_included"
+                    },
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "VND 6,670,949",
+                        "currency": "VND",
+                        "value": 6670948.52419596,
+                        "amount_rounded": "VND 6,670,949"
+                    },
+                    "has_long_stays_monthly_rate_price": 0
+                },
+                "currencycode": "VND",
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "1217102601_0_1_1_0"
+                ],
+                "longitude": 108.335476654678,
+                "is_free_cancellable": 0,
+                "id": "property_card_12171026",
+                "is_genius_deal": 0,
+                "review_score": 9.6,
+                "accommodation_type": 204,
+                "type": "property_card",
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "is_smart_deal": 0
+            },
+            {
+                "hotel_id": 451025,
+                "default_language": "en",
+                "ribbon_text": "Breakfast included",
+                "class": 5,
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Wonderful",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "default_wishlist_name": "Hoi An",
+                "city_in_trans": "in Hoi An",
+                "preferred_plus": 1,
+                "extended": 0,
+                "has_swimming_pool": 1,
+                "review_nr": 1426,
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "is_smart_deal": 0,
+                "review_score": 9.2,
+                "type": "property_card",
+                "accommodation_type": 206,
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "45102509_0_1_1_0"
+                ],
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "net_amount": {
+                        "value": 365.2326751088,
+                        "amount_rounded": "€ 365",
+                        "amount_unrounded": "€ 365.23",
+                        "currency": "EUR"
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        }
+                    },
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 11,462,908",
+                        "amount_rounded": "VND 11,462,908",
+                        "value": 11462908.0928204
+                    },
+                    "benefits": [],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "€ 414.15",
+                        "currency": "EUR",
+                        "value": 414.1548693936,
+                        "amount_rounded": "€ 414"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 11,462,908",
+                        "value": 11462908.0928204,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 11,462,908"
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR",
+                        "value": 0,
+                        "amount_rounded": "€ 0"
+                    },
+                    "items": [
+                        {
+                            "details": null,
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 32.49",
+                                "amount_rounded": "€ 32",
+                                "value": 32.4914421952
+                            },
+                            "kind": "charge",
+                            "name": "TAX",
+                            "base": {
+                                "base_amount": 35.12,
+                                "kind": "per_stay"
+                            }
+                        },
+                        {
+                            "kind": "charge",
+                            "name": "Service charge",
+                            "base": {
+                                "base_amount": 17.76,
+                                "kind": "per_stay"
+                            },
+                            "details": null,
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 16.43",
+                                "amount_rounded": "€ 16",
+                                "value": 16.4307520896
+                            }
+                        }
+                    ],
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "€ 49",
+                        "value": 48.9221942848,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 48.92"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "€ 103.54",
+                        "currency": "EUR",
+                        "value": 103.5387173484,
+                        "amount_rounded": "€ 104"
+                    },
+                    "gross_amount": {
+                        "value": 414.1548693936,
+                        "amount_rounded": "€ 414",
+                        "amount_unrounded": "€ 414.15",
+                        "currency": "EUR"
+                    }
+                },
+                "is_free_cancellable": 0,
+                "longitude": 108.322293162346,
+                "id": "property_card_451025",
+                "is_genius_deal": 0,
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/381637056.jpg?k=1249a00df412b6c9f15389043c171080b209723c7e890b6d38700916ee79d843&o=",
+                "updated_checkout": null,
+                "preferred": 1,
+                "badges": [],
+                "class_is_estimated": 0,
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "main_photo_id": 381637056,
+                "has_free_parking": 1,
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "latitude": 15.8745748683847,
+                "hotel_name_trans": "Bel Marina Hoi An Resort",
+                "children_not_allowed": null,
+                "hotel_name": "Bel Marina Hoi An Resort",
+                "city": "Hoi An",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "cant_book": null,
+                "countrycode": "vn",
+                "min_total_price": 11462908.0928204,
+                "is_no_prepayment_block": 0,
+                "ufi": -3715584
+            },
+            {
+                "hotel_id": 11982589,
+                "is_geo_rate": 1,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "class": 0,
+                "review_score_word": "Excellent",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "distances": [],
+                "default_language": "vi",
+                "extended": 0,
+                "review_nr": 8,
+                "city_in_trans": "in Thôn Kim Long (1)",
+                "preferred_plus": 1,
+                "default_wishlist_name": "Thôn Kim Long (1)",
+                "accommodation_type": 223,
+                "type": "property_card",
+                "review_score": 8.8,
+                "unit_configuration_label": "<b>Private room</b>: 1 bed",
+                "booking_home": {
+                    "is_single_unit_property": "",
+                    "group": "hotels_and_others",
+                    "segment": 0,
+                    "is_booking_home": 1,
+                    "quality_class": 0
+                },
+                "is_smart_deal": 0,
+                "checkout": {
+                    "from": "04:00",
+                    "until": "12:00"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/551999040.jpg?k=4c389688a37bd0cfa887fa897fb757e827fad048efe96c9082c7d5be21f9c91b&o=",
+                "id": "property_card_11982589",
+                "is_genius_deal": 0,
+                "composite_price_breakdown": {
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 3,240,000",
+                        "amount_rounded": "VND 3,240,000",
+                        "value": 3240000
+                    },
+                    "benefits": [],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "amount_unrounded": "€ 108.39",
+                        "currency": "EUR",
+                        "value": 108.39,
+                        "amount_rounded": "€ 108"
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "",
+                        "amount": {
+                            "currency": "EUR",
+                            "value": 0
+                        }
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 8.67",
+                        "amount_rounded": "€ 9",
+                        "value": 8.6712
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "gross_amount_per_night": {
+                        "value": 29.2653,
+                        "amount_rounded": "€ 29",
+                        "amount_unrounded": "€ 29.27",
+                        "currency": "EUR"
+                    },
+                    "gross_amount": {
+                        "value": 117.0612,
+                        "amount_rounded": "€ 117",
+                        "amount_unrounded": "€ 117.06",
+                        "currency": "EUR"
+                    },
+                    "discounted_amount": {
+                        "value": 13.0068,
+                        "amount_rounded": "€ 13",
+                        "amount_unrounded": "€ 13.01",
+                        "currency": "EUR"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "€ 33",
+                        "value": 32.517,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 32.52"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_rounded": "€ 117",
+                        "value": 117.0612,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 117.06"
+                    },
+                    "strikethrough_amount": {
+                        "amount_unrounded": "€ 130.07",
+                        "currency": "EUR",
+                        "value": 130.068,
+                        "amount_rounded": "€ 130"
+                    },
+                    "items": [
+                        {
+                            "name": "VAT",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 8.6712,
+                                "amount_rounded": "€ 9",
+                                "amount_unrounded": "€ 8.67",
+                                "currency": "EUR"
+                            },
+                            "details": "8 % VAT",
+                            "inclusion_type": "included"
+                        },
+                        {
+                            "details": "0 % City tax",
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 0",
+                                "amount_rounded": "€ 0",
+                                "value": 0
+                            },
+                            "kind": "charge",
+                            "name": "City tax",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 0
+                            }
+                        },
+                        {
+                            "details": "You’re getting a reduced rate because this property is offering a discount.",
+                            "item_amount": {
+                                "amount_unrounded": "€ 13.01",
+                                "currency": "EUR",
+                                "value": 13.0068,
+                                "amount_rounded": "€ 13"
+                            },
+                            "identifier": "basic-deal",
+                            "kind": "discount",
+                            "name": "Bonus savings",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ],
+                    "excluded_amount": {
+                        "value": 0,
+                        "amount_rounded": "€ 0",
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_unrounded": "VND 3,240,000",
+                        "currency": "VND",
+                        "value": 3240000,
+                        "amount_rounded": "VND 3,240,000"
+                    }
+                },
+                "block_ids": [
+                    "1198258903_408082632_0_42_0"
+                ],
+                "genius_discount_percentage": 0,
+                "currencycode": "VND",
+                "longitude": 107.535010336188,
+                "is_free_cancellable": 0,
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "class_is_estimated": 0,
+                "preferred": 1,
+                "badges": [],
+                "updated_checkout": null,
+                "hotel_include_breakfast": 0,
+                "has_free_parking": 1,
+                "main_photo_id": 551999040,
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "hotel_name": "Nguyet Bieu Riverside",
+                "city": "Thành phố Huế",
+                "children_not_allowed": null,
+                "latitude": 16.4483152760642,
+                "checkin": {
+                    "until": "19:30",
+                    "from": "14:00"
+                },
+                "hotel_name_trans": "Nguyet Bieu Riverside",
+                "ufi": -3730655,
+                "is_no_prepayment_block": 1,
+                "min_total_price": 3240000,
+                "countrycode": "vn",
+                "cant_book": null,
+                "urgency_message": "Only 3 left at this price on Booking.com"
+            },
+            {
+                "hotel_id": 11602187,
+                "default_wishlist_name": "Dien Ban",
+                "has_swimming_pool": 1,
+                "review_nr": 12,
+                "extended": 0,
+                "preferred_plus": 1,
+                "city_in_trans": "in Dien Ban",
+                "distances": [],
+                "review_score_word": "Exceptional",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "class": 5,
+                "ribbon_text": "Breakfast included",
+                "default_language": "xu",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_genius_deal": 0,
+                "id": "property_card_11602187",
+                "is_free_cancellable": 0,
+                "longitude": 108.327756617566,
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "1160218713_407827661_2_1_0"
+                ],
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "€ 886",
+                        "value": 885.53921852,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 885.54"
+                    },
+                    "discounted_amount": {
+                        "amount_unrounded": "€ 2,298.86",
+                        "currency": "EUR",
+                        "value": 2298.85980463,
+                        "amount_rounded": "€ 2,299"
+                    },
+                    "gross_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 1,243.30",
+                        "amount_rounded": "€ 1,243",
+                        "value": 1243.29706945
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "€ 311",
+                        "value": 310.8242673625,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 310.82"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "included_taxes_and_charges_amount": {
+                        "value": 92.0960792185185,
+                        "amount_rounded": "€ 92",
+                        "amount_unrounded": "€ 92.10",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 34,411,765",
+                        "value": 34411765,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 34,411,765"
+                    },
+                    "items": [
+                        {
+                            "inclusion_type": "included",
+                            "details": "8 % VAT",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 92.10",
+                                "amount_rounded": "€ 92",
+                                "value": 92.0960792185185
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "percentage": 8,
+                                "kind": "percentage"
+                            },
+                            "name": "VAT"
+                        },
+                        {
+                            "kind": "discount",
+                            "name": "Bonus savings",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "details": "You’re getting a reduced rate because this property is offering a discount.",
+                            "item_amount": {
+                                "amount_rounded": "€ 2,161",
+                                "value": 2160.71570186,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 2,160.72"
+                            },
+                            "identifier": "basic-deal"
+                        },
+                        {
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "identifier": "mobile-discount",
+                            "item_amount": {
+                                "amount_rounded": "€ 138",
+                                "value": 138.14410277,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 138.14"
+                            },
+                            "kind": "discount",
+                            "name": "Mobile-only price",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ],
+                    "excluded_amount": {
+                        "value": 0,
+                        "amount_rounded": "€ 0",
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 1243.29706945,
+                        "amount_rounded": "€ 1,243",
+                        "amount_unrounded": "€ 1,243.30",
+                        "currency": "EUR"
+                    },
+                    "strikethrough_amount": {
+                        "amount_unrounded": "€ 3,542.16",
+                        "currency": "EUR",
+                        "value": 3542.15687408,
+                        "amount_rounded": "€ 3,542"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "benefits": [
+                        {
+                            "name": "Mobile-only price",
+                            "identifier": "mobile-rate",
+                            "icon": null,
+                            "badge_variant": "constructive",
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "kind": "badge"
+                        }
+                    ],
+                    "gross_amount_hotel_currency": {
+                        "amount_rounded": "VND 34,411,765",
+                        "value": 34411765,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 34,411,765"
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "currency": "EUR",
+                            "value": 0
+                        },
+                        "translated_copy": "",
+                        "mode": "all_included"
+                    },
+                    "net_amount": {
+                        "amount_unrounded": "€ 1,151.20",
+                        "currency": "EUR",
+                        "value": 1151.20099023148,
+                        "amount_rounded": "€ 1,151"
+                    }
+                },
+                "checkout": {
+                    "from": "04:00",
+                    "until": "12:00"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/546737733.jpg?k=edae94ae1c8238c665a30c5bdd95daccc71b581cbb416e585985261a00822b9e&o=",
+                "is_smart_deal": 0,
+                "booking_home": {
+                    "quality_class": 0,
+                    "is_single_unit_property": "",
+                    "is_booking_home": 1,
+                    "segment": 1,
+                    "group": "house_like"
+                },
+                "unit_configuration_label": "<b>Entire villa – 125 m²</b>: 1 bed • 1 bedroom • 1 living room • 1 bathroom",
+                "type": "property_card",
+                "accommodation_type": 213,
+                "review_score": 9.7,
+                "main_photo_id": 546737733,
+                "has_free_parking": 1,
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "id": "Mobile Rate",
+                        "text": "Mobile-only price"
+                    }
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "class_is_estimated": 0,
+                "cant_book": null,
+                "countrycode": "vn",
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "ufi": -3712643,
+                "min_total_price": 34411765,
+                "is_no_prepayment_block": 0,
+                "children_not_allowed": null,
+                "hotel_name_trans": "Hoi An Royal Beachfront Villas",
+                "checkin": {
+                    "until": "00:00",
+                    "from": "15:00"
+                },
+                "latitude": 15.9213158066196,
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "city": "Quang Nam",
+                "hotel_name": "Hoi An Royal Beachfront Villas"
+            },
+            {
+                "hotel_id": 3206041,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": 1,
+                "default_language": "vi",
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Exceptional",
+                "class": 2,
+                "preferred_plus": 0,
+                "city_in_trans": "in Ly Son",
+                "review_nr": 244,
+                "extended": 0,
+                "default_wishlist_name": "Ly Son",
+                "review_score": 9.6,
+                "type": "property_card",
+                "accommodation_type": 204,
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/538023701.jpg?k=0d927bad7cbafcaf4ce6445ebb5f48cf8b57e6e31f8393952740390f420417bf&o=",
+                "checkout": {
+                    "from": "11:30",
+                    "until": "12:00"
+                },
+                "is_free_cancellable": 0,
+                "longitude": 109.096133081593,
+                "genius_discount_percentage": 0,
+                "currencycode": "VND",
+                "block_ids": [
+                    "320604104_368964005_0_42_0"
+                ],
+                "composite_price_breakdown": {
+                    "net_amount": {
+                        "value": 54.1948661851852,
+                        "amount_rounded": "€ 54",
+                        "amount_unrounded": "€ 54.19",
+                        "currency": "EUR"
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": "",
+                        "mode": "all_included"
+                    },
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "value": 1619996,
+                        "amount_rounded": "VND 1,619,996",
+                        "amount_unrounded": "VND 1,619,996",
+                        "currency": "VND"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "€ 58.53",
+                        "currency": "EUR",
+                        "value": 58.53045548,
+                        "amount_rounded": "€ 59"
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "name": "City tax",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 0
+                            },
+                            "details": "0 % City tax",
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "value": 0,
+                                "amount_rounded": "€ 0",
+                                "amount_unrounded": "€ 0",
+                                "currency": "EUR"
+                            }
+                        },
+                        {
+                            "name": "VAT",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 4.34",
+                                "amount_rounded": "€ 4",
+                                "value": 4.33558929481481
+                            },
+                            "details": "8 % VAT",
+                            "inclusion_type": "included"
+                        }
+                    ],
+                    "excluded_amount": {
+                        "value": 0,
+                        "amount_rounded": "€ 0",
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_unrounded": "VND 1,619,996",
+                        "currency": "VND",
+                        "value": 1619996,
+                        "amount_rounded": "VND 1,619,996"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 4.33558929481481,
+                        "amount_rounded": "€ 4",
+                        "amount_unrounded": "€ 4.34",
+                        "currency": "EUR"
+                    },
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount": {
+                        "value": 58.53045548,
+                        "amount_rounded": "€ 59",
+                        "amount_unrounded": "€ 58.53",
+                        "currency": "EUR"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 14.63261387,
+                        "amount_rounded": "€ 15",
+                        "amount_unrounded": "€ 14.63",
+                        "currency": "EUR"
+                    }
+                },
+                "is_genius_deal": 0,
+                "id": "property_card_3206041",
+                "class_is_estimated": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "updated_checkout": null,
+                "badges": [],
+                "preferred": 1,
+                "has_free_parking": 1,
+                "hotel_include_breakfast": 0,
+                "main_photo_id": 538023701,
+                "city": "Quang Ngai",
+                "hotel_name": "Khách Sạn Thiên Trí Lý Sơn",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "hotel_name_trans": "Khách Sạn Thiên Trí Lý Sơn",
+                "checkin": {
+                    "until": "00:00",
+                    "from": "08:00"
+                },
+                "latitude": 15.3789408650702,
+                "children_not_allowed": null,
+                "min_total_price": 1619996,
+                "is_no_prepayment_block": 1,
+                "ufi": 900057361,
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "cant_book": null,
+                "countrycode": "vn"
+            },
+            {
+                "hotel_id": 8100108,
+                "id": "property_card_8100108",
+                "is_genius_deal": 0,
+                "composite_price_breakdown": {
+                    "has_long_stays_monthly_rate_price": 0,
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "VND 2,908,874",
+                        "currency": "VND",
+                        "value": 2908873.60797122,
+                        "amount_rounded": "VND 2,908,874"
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "value": 14,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": "",
+                        "mode": "extra_charges"
+                    },
+                    "net_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 105.10",
+                        "amount_rounded": "€ 105",
+                        "value": 105.097603456
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 105.10",
+                        "currency": "EUR",
+                        "value": 105.097603456,
+                        "amount_rounded": "€ 105"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 26.274400864,
+                        "amount_rounded": "€ 26",
+                        "amount_unrounded": "€ 26.27",
+                        "currency": "EUR"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0",
+                        "amount_rounded": "€ 0",
+                        "value": 0
+                    },
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "items": [
+                        {
+                            "name": "TAX",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 10.16
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 9.40",
+                                "amount_rounded": "€ 9",
+                                "value": 9.3995743936
+                            },
+                            "details": null,
+                            "inclusion_type": "excluded"
+                        },
+                        {
+                            "name": "Service charge",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 5.04
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 4.66",
+                                "amount_rounded": "€ 5",
+                                "value": 4.6627809984
+                            },
+                            "details": null,
+                            "inclusion_type": "excluded"
+                        }
+                    ],
+                    "excluded_amount": {
+                        "value": 14.062355392,
+                        "amount_rounded": "€ 14",
+                        "amount_unrounded": "€ 14.06",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_unrounded": "VND 3,298,089",
+                        "currency": "VND",
+                        "value": 3298089.09072793,
+                        "amount_rounded": "VND 3,298,089"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "€ 119.16",
+                        "currency": "EUR",
+                        "value": 119.159958848,
+                        "amount_rounded": "€ 119"
+                    }
+                },
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "810010813_0_1_1_0"
+                ],
+                "currencycode": "VND",
+                "longitude": 108.232495,
+                "is_free_cancellable": 0,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/378535133.jpg?k=31b8d48872fcbf73dc36204050dfa1e579ca091da4c23a9b9449818fb0584e72&o=",
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "is_smart_deal": 0,
+                "accommodation_type": 204,
+                "type": "property_card",
+                "review_score": 8.4,
+                "default_wishlist_name": "Danang",
+                "extended": 0,
+                "review_nr": 752,
+                "has_swimming_pool": 1,
+                "city_in_trans": "in Danang",
+                "preferred_plus": 1,
+                "class": 4,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Very Good",
+                "distances": [],
+                "default_language": "vi",
+                "ribbon_text": "Breakfast included",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "countrycode": "vn",
+                "cant_book": null,
+                "ufi": -3712125,
+                "is_no_prepayment_block": 0,
+                "min_total_price": 2908873.60797122,
+                "children_not_allowed": null,
+                "latitude": 16.054389,
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "hotel_name_trans": "Santori Hotel And Spa",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "hotel_name": "Santori Hotel And Spa",
+                "city": "Đà Nẵng",
+                "main_photo_id": 378535133,
+                "has_free_parking": 1,
+                "preferred": 1,
+                "badges": [],
+                "updated_checkout": null,
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "class_is_estimated": 0
+            },
+            {
+                "hotel_id": 1119541,
+                "composite_price_breakdown": {
+                    "all_inclusive_amount": {
+                        "value": 364.881116224,
+                        "amount_rounded": "€ 365",
+                        "amount_unrounded": "€ 364.88",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 10,099,118",
+                        "value": 10099117.5262663,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 10,099,118"
+                    },
+                    "items": [
+                        {
+                            "details": null,
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "value": 28.864834752,
+                                "amount_rounded": "€ 29",
+                                "amount_unrounded": "€ 28.86",
+                                "currency": "EUR"
+                            },
+                            "kind": "charge",
+                            "name": "TAX",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 31.2
+                            }
+                        },
+                        {
+                            "item_amount": {
+                                "value": 14.247386384,
+                                "amount_rounded": "€ 14",
+                                "amount_unrounded": "€ 14.25",
+                                "currency": "EUR"
+                            },
+                            "inclusion_type": "included",
+                            "details": null,
+                            "name": "Service charge",
+                            "base": {
+                                "base_amount": 15.4,
+                                "kind": "per_stay"
+                            },
+                            "kind": "charge"
+                        }
+                    ],
+                    "excluded_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0",
+                        "amount_rounded": "€ 0",
+                        "value": 0
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "€ 43.11",
+                        "currency": "EUR",
+                        "value": 43.112221136,
+                        "amount_rounded": "€ 43"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "€ 91",
+                        "value": 91.220279056,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 91.22"
+                    },
+                    "gross_amount": {
+                        "amount_rounded": "€ 365",
+                        "value": 364.881116224,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 364.88"
+                    },
+                    "net_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 321.77",
+                        "amount_rounded": "€ 322",
+                        "value": 321.768895088
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "",
+                        "amount": {
+                            "currency": "EUR",
+                            "value": 0
+                        }
+                    },
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 10,099,118",
+                        "amount_rounded": "VND 10,099,118",
+                        "value": 10099117.5262663
+                    },
+                    "benefits": [],
+                    "has_long_stays_monthly_rate_price": 0
+                },
+                "currencycode": "VND",
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "111954175_0_1_1_0"
+                ],
+                "longitude": 108.327320795506,
+                "is_free_cancellable": 0,
+                "id": "property_card_1119541",
+                "is_genius_deal": 0,
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/506252361.jpg?k=2c9908b94f015ba30663988dc32d06c045ff2ca96a9dd360fcb24dd866417e9c&o=",
+                "unit_configuration_label": "<b>Hotel room</b>: Beds: 1 double or 2 twins",
+                "is_smart_deal": 0,
+                "review_score": 9.1,
+                "accommodation_type": 206,
+                "type": "property_card",
+                "default_wishlist_name": "Hoi An",
+                "city_in_trans": "in Hoi An",
+                "preferred_plus": 1,
+                "extended": 0,
+                "review_nr": 1035,
+                "has_swimming_pool": 1,
+                "default_language": "en",
+                "ribbon_text": "Breakfast included",
+                "class": 5,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Wonderful",
+                "distances": [],
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "countrycode": "vn",
+                "cant_book": null,
+                "is_no_prepayment_block": 0,
+                "min_total_price": 10099117.5262663,
+                "ufi": -3715584,
+                "latitude": 15.8838534371503,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "hotel_name_trans": "Almanity Hoi An Resort & Spa",
+                "children_not_allowed": null,
+                "hotel_name": "Almanity Hoi An Resort & Spa",
+                "city": "Hoi An",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "main_photo_id": 506252361,
+                "updated_checkout": null,
+                "preferred": 1,
+                "badges": [],
+                "class_is_estimated": 0,
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "timezone": "Asia/Ho_Chi_Minh"
+            },
+            {
+                "hotel_id": 5667596,
+                "city_in_trans": "in Danang",
+                "preferred_plus": 1,
+                "extended": 0,
+                "review_nr": 990,
+                "has_swimming_pool": 1,
+                "default_wishlist_name": "Danang",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "default_language": "vi",
+                "class": 4,
+                "review_score_word": "Very Good",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "distances": [],
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/518141509.jpg?k=658f875c3d8ffb8b22dbe467ad36b4fff5f7e703175ec6f99ba72ac7facea032&o=",
+                "checkout": {
+                    "until": "00:00",
+                    "from": "01:00"
+                },
+                "composite_price_breakdown": {
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 1,850,822",
+                        "amount_rounded": "VND 1,850,822",
+                        "value": 1850822.04563521
+                    },
+                    "benefits": [],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "value": 66.8702005088,
+                        "amount_rounded": "€ 67",
+                        "amount_unrounded": "€ 66.87",
+                        "currency": "EUR"
+                    },
+                    "charges_details": {
+                        "mode": "extra_charges",
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 9,
+                            "currency": "EUR"
+                        }
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "€ 0",
+                        "value": 0,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "€ 17",
+                        "value": 16.7175501272,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 16.72"
+                    },
+                    "gross_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 66.87",
+                        "amount_rounded": "€ 67",
+                        "value": 66.8702005088
+                    },
+                    "all_inclusive_amount": {
+                        "amount_rounded": "€ 76",
+                        "value": 75.8257005216,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 75.83"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 2,098,691",
+                        "value": 2098690.85307501,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 2,098,691"
+                    },
+                    "items": [
+                        {
+                            "name": "TAX",
+                            "base": {
+                                "base_amount": 6.44,
+                                "kind": "per_stay"
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_rounded": "€ 6",
+                                "value": 5.9579979424,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 5.96"
+                            },
+                            "details": null,
+                            "inclusion_type": "excluded"
+                        },
+                        {
+                            "kind": "charge",
+                            "name": "Service charge",
+                            "base": {
+                                "base_amount": 3.24,
+                                "kind": "per_stay"
+                            },
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "amount_rounded": "€ 3",
+                                "value": 2.9975020704,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 3"
+                            }
+                        }
+                    ],
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 8.96",
+                        "currency": "EUR",
+                        "value": 8.9555000128,
+                        "amount_rounded": "€ 9"
+                    }
+                },
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "566759607_0_1_0_0"
+                ],
+                "currencycode": "VND",
+                "longitude": 108.239938018524,
+                "is_free_cancellable": 0,
+                "id": "property_card_5667596",
+                "is_genius_deal": 0,
+                "review_score": 8.4,
+                "accommodation_type": 204,
+                "type": "property_card",
+                "unit_configuration_label": "<b>Entire apartment – 40 m²</b>: 1 bed • 1 bedroom • 1 living room • 1 bathroom",
+                "is_smart_deal": 0,
+                "hotel_include_breakfast": 0,
+                "has_free_parking": 1,
+                "main_photo_id": 518141509,
+                "class_is_estimated": 0,
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkout": null,
+                "preferred": 1,
+                "badges": [],
+                "is_no_prepayment_block": 0,
+                "min_total_price": 1850822.04563521,
+                "ufi": -3712125,
+                "countrycode": "vn",
+                "cant_book": null,
+                "hotel_name": "RHM Luxury Hotel And Suite",
+                "city": "Da Nang",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "latitude": 16.0370604714532,
+                "checkin": {
+                    "until": "23:30",
+                    "from": "14:00"
+                },
+                "hotel_name_trans": "RHM Luxury Hotel And Suite",
+                "children_not_allowed": null
+            },
+            {
+                "hotel_id": 4316843,
+                "has_free_parking": 1,
+                "hotel_include_breakfast": 0,
+                "main_photo_id": 578752474,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "class_is_estimated": 0,
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "text": "Limited-time Deal",
+                        "id": "Limited Time Deal"
+                    }
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "ufi": -3712125,
+                "is_no_prepayment_block": 1,
+                "min_total_price": 1507735,
+                "countrycode": "vn",
+                "cant_book": null,
+                "urgency_message": "Only 2 left at this price on Booking.com",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "city": "Da Nang",
+                "hotel_name": "Nostalgia Boutique Hotel",
+                "children_not_allowed": null,
+                "hotel_name_trans": "Nostalgia Boutique Hotel",
+                "latitude": 16.0389436360377,
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "review_nr": 1355,
+                "has_swimming_pool": 1,
+                "extended": 0,
+                "preferred_plus": 1,
+                "city_in_trans": "in Danang",
+                "default_wishlist_name": "Danang",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Very Good",
+                "distances": [],
+                "class": 4,
+                "default_language": "vi",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/578752474.jpg?k=4abbabd9102c4d9f7de5c3dd8bdcef76eeae702e108231cfcfeb8e16cad55ac5&o=",
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "is_genius_deal": 0,
+                "id": "property_card_4316843",
+                "longitude": 108.244177929539,
+                "is_free_cancellable": 1,
+                "composite_price_breakdown": {
+                    "has_long_stays_monthly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "amount_rounded": "VND 1,507,735",
+                        "value": 1507735,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 1,507,735"
+                    },
+                    "benefits": [
+                        {
+                            "badge_variant": "constructive",
+                            "name": "Limited-time Deal",
+                            "identifier": "limited-time-deal",
+                            "icon": null,
+                            "kind": "badge",
+                            "details": "You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours."
+                        }
+                    ],
+                    "charges_details": {
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 7,
+                            "currency": "EUR"
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "net_amount": {
+                        "amount_unrounded": "€ 54.47",
+                        "currency": "EUR",
+                        "value": 54.47446555,
+                        "amount_rounded": "€ 54"
+                    },
+                    "discounted_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 182.37",
+                        "amount_rounded": "€ 182",
+                        "value": 182.37105255
+                    },
+                    "strikethrough_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 59.21",
+                        "amount_rounded": "€ 59",
+                        "value": 59.211379525
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "€ 13.62",
+                        "currency": "EUR",
+                        "value": 13.6186163875,
+                        "amount_rounded": "€ 14"
+                    },
+                    "gross_amount": {
+                        "value": 54.47446555,
+                        "amount_rounded": "€ 54",
+                        "amount_unrounded": "€ 54.47",
+                        "currency": "EUR"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR",
+                        "value": 0,
+                        "amount_rounded": "€ 0"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_unrounded": "VND 1,709,771",
+                        "currency": "VND",
+                        "value": 1709771.49,
+                        "amount_rounded": "VND 1,709,771"
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 7.30",
+                        "currency": "EUR",
+                        "value": 7.2995783837,
+                        "amount_rounded": "€ 7"
+                    },
+                    "items": [
+                        {
+                            "name": "VAT",
+                            "base": {
+                                "percentage": 8,
+                                "kind": "percentage"
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 4.357957244,
+                                "amount_rounded": "€ 4",
+                                "amount_unrounded": "€ 4.36",
+                                "currency": "EUR"
+                            },
+                            "inclusion_type": "excluded",
+                            "details": "8 % VAT"
+                        },
+                        {
+                            "inclusion_type": "excluded",
+                            "details": "5 % Service charge",
+                            "item_amount": {
+                                "value": 2.9416211397,
+                                "amount_rounded": "€ 3",
+                                "amount_unrounded": "€ 2.94",
+                                "currency": "EUR"
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 5
+                            },
+                            "name": "Service charge"
+                        },
+                        {
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "name": "Limited-time Deal",
+                            "kind": "discount",
+                            "identifier": "limited-time-deal",
+                            "item_amount": {
+                                "amount_rounded": "€ 182",
+                                "value": 182.37105255,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 182.37"
+                            },
+                            "details": "You're getting a discount because—for a limited time only—this property is offering reduced rates on rooms that match your search."
+                        }
+                    ],
+                    "strikethrough_amount": {
+                        "amount_rounded": "€ 237",
+                        "value": 236.8455181,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 236.85"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_rounded": "€ 62",
+                        "value": 61.7740439337,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 61.77"
+                    }
+                },
+                "currencycode": "VND",
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "431684317_390057187_2_0_0"
+                ],
+                "accommodation_type": 204,
+                "type": "property_card",
+                "review_score": 8.3,
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed"
+            },
+            {
+                "hotel_id": 2136070,
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Very Good",
+                "class": 4,
+                "ribbon_text": "Breakfast included",
+                "default_language": "en",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "default_wishlist_name": "Danang",
+                "has_swimming_pool": 1,
+                "review_nr": 1219,
+                "extended": 0,
+                "preferred_plus": 1,
+                "city_in_trans": "in Danang",
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "type": "property_card",
+                "accommodation_type": 204,
+                "review_score": 8.3,
+                "is_genius_deal": 0,
+                "id": "property_card_2136070",
+                "is_free_cancellable": 0,
+                "longitude": 108.246117025782,
+                "block_ids": [
+                    "213607026_0_1_1_0"
+                ],
+                "genius_discount_percentage": 0,
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 19.91",
+                        "amount_rounded": "€ 20",
+                        "value": 19.9093347392
+                    },
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount": {
+                        "value": 168.2671841248,
+                        "amount_rounded": "€ 168",
+                        "amount_unrounded": "€ 168.27",
+                        "currency": "EUR"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 42.0667960312,
+                        "amount_rounded": "€ 42",
+                        "amount_unrounded": "€ 42.07",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 168.2671841248,
+                        "amount_rounded": "€ 168",
+                        "amount_unrounded": "€ 168.27",
+                        "currency": "EUR"
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 14.44
+                            },
+                            "name": "TAX",
+                            "inclusion_type": "included",
+                            "details": null,
+                            "item_amount": {
+                                "amount_rounded": "€ 13",
+                                "value": 13.3592376224,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 13.36"
+                            }
+                        },
+                        {
+                            "item_amount": {
+                                "value": 6.5500971168,
+                                "amount_rounded": "€ 7",
+                                "amount_unrounded": "€ 6.55",
+                                "currency": "EUR"
+                            },
+                            "details": null,
+                            "inclusion_type": "included",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 7.08
+                            },
+                            "name": "Service charge",
+                            "kind": "charge"
+                        }
+                    ],
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR",
+                        "value": 0,
+                        "amount_rounded": "€ 0"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "value": 4657270.52656518,
+                        "amount_rounded": "VND 4,657,271",
+                        "amount_unrounded": "VND 4,657,271",
+                        "currency": "VND"
+                    },
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "value": 4657270.52656518,
+                        "amount_rounded": "VND 4,657,271",
+                        "amount_unrounded": "VND 4,657,271",
+                        "currency": "VND"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "amount_rounded": "€ 148",
+                        "value": 148.3578493856,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 148.36"
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "",
+                        "amount": {
+                            "currency": "EUR",
+                            "value": 0
+                        }
+                    }
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/398485506.jpg?k=6994340090aa9714d343e05893a989dcf5d044c4537845a0d56207f5a25109ca&o=",
+                "checkout": {
+                    "from": "01:00",
+                    "until": "12:00"
+                },
+                "badges": [],
+                "preferred": 1,
+                "updated_checkout": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "class_is_estimated": 0,
+                "main_photo_id": 398485506,
+                "children_not_allowed": null,
+                "hotel_name_trans": "Alani Sea View Hotel",
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "latitude": 16.0542313583754,
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "city": "Danang",
+                "hotel_name": "Alani Sea View Hotel",
+                "cant_book": null,
+                "countrycode": "vn",
+                "ufi": -3712125,
+                "min_total_price": 4657270.52656518,
+                "is_no_prepayment_block": 0
+            },
+            {
+                "hotel_id": 4673936,
+                "has_free_parking": 1,
+                "hotel_include_breakfast": 0,
+                "main_photo_id": 419569762,
+                "class_is_estimated": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "updated_checkout": null,
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "text": "Early 2025 Deal",
+                        "id": "Early Year Deals"
+                    }
+                ],
+                "preferred": 1,
+                "min_total_price": 2800000,
+                "is_no_prepayment_block": 1,
+                "ufi": -3712125,
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "cant_book": null,
+                "countrycode": "vn",
+                "city": "Sơn Trà",
+                "hotel_name": "Golden Rose Hotel",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "hotel_name_trans": "Golden Rose Hotel",
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "latitude": 16.073444,
+                "children_not_allowed": null,
+                "preferred_plus": 1,
+                "city_in_trans": "in Danang",
+                "review_nr": 3590,
+                "extended": 0,
+                "default_wishlist_name": "Danang",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "default_language": "vi",
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Excellent",
+                "class": 4,
+                "checkout": {
+                    "until": "12:00",
+                    "from": ""
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/419569762.jpg?k=0b586d5ed1b311bfca7ce9497c57f445e256f83844eecbd807ba617b3a87fcc7&o=",
+                "is_free_cancellable": 1,
+                "longitude": 108.241817,
+                "currencycode": "VND",
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "467393616_362591906_4_0_0"
+                ],
+                "composite_price_breakdown": {
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "VND 2,800,000",
+                        "currency": "VND",
+                        "value": 2800000,
+                        "amount_rounded": "VND 2,800,000"
+                    },
+                    "benefits": [
+                        {
+                            "details": "This property is offering a discount on stays between Jan 1 and Apr 1, 2025.",
+                            "kind": "badge",
+                            "badge_variant": "constructive",
+                            "icon": null,
+                            "name": "Early 2025 Deal",
+                            "identifier": "early-2021-deals"
+                        }
+                    ],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "amount_unrounded": "€ 89.21",
+                        "currency": "EUR",
+                        "value": 89.2098765432099,
+                        "amount_rounded": "€ 89"
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": "",
+                        "mode": "all_included"
+                    },
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "€ 12",
+                        "value": 11.9541234567901,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 11.95"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "€ 51",
+                        "value": 50.582,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 50.58"
+                    },
+                    "discounted_amount": {
+                        "amount_unrounded": "€ 101.16",
+                        "currency": "EUR",
+                        "value": 101.164,
+                        "amount_rounded": "€ 101"
+                    },
+                    "gross_amount": {
+                        "amount_rounded": "€ 101",
+                        "value": 101.164,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 101.16"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 25.291,
+                        "amount_rounded": "€ 25",
+                        "amount_unrounded": "€ 25.29",
+                        "currency": "EUR"
+                    },
+                    "strikethrough_amount": {
+                        "value": 202.328,
+                        "amount_rounded": "€ 202",
+                        "amount_unrounded": "€ 202.33",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_rounded": "€ 101",
+                        "value": 101.164,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 101.16"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 2,800,000",
+                        "value": 2800000,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 2,800,000"
+                    },
+                    "excluded_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0",
+                        "amount_rounded": "€ 0",
+                        "value": 0
+                    },
+                    "items": [
+                        {
+                            "details": "8 % VAT",
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "value": 7.49362962962963,
+                                "amount_rounded": "€ 7",
+                                "amount_unrounded": "€ 7.49",
+                                "currency": "EUR"
+                            },
+                            "kind": "charge",
+                            "name": "VAT",
+                            "base": {
+                                "percentage": 8,
+                                "kind": "percentage"
+                            }
+                        },
+                        {
+                            "item_amount": {
+                                "amount_unrounded": "€ 4.46",
+                                "currency": "EUR",
+                                "value": 4.46049382716049,
+                                "amount_rounded": "€ 4"
+                            },
+                            "details": "5 % Service charge",
+                            "inclusion_type": "included",
+                            "base": {
+                                "percentage": 5,
+                                "kind": "percentage"
+                            },
+                            "name": "Service charge",
+                            "kind": "charge"
+                        },
+                        {
+                            "kind": "discount",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "name": "Early 2025 Deal",
+                            "details": "This property is offering a discount on stays between Jan 1 and Apr 1, 2025.",
+                            "identifier": "campaign_37",
+                            "item_amount": {
+                                "amount_unrounded": "€ 101.16",
+                                "currency": "EUR",
+                                "value": 101.164,
+                                "amount_rounded": "€ 101"
+                            }
+                        }
+                    ]
+                },
+                "is_genius_deal": 0,
+                "id": "property_card_4673936",
+                "review_score": 8.7,
+                "type": "property_card",
+                "accommodation_type": 204,
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds"
+            },
+            {
+                "hotel_id": 2995134,
+                "is_genius_deal": 0,
+                "id": "property_card_2995134",
+                "is_free_cancellable": 0,
+                "longitude": 108.364776670933,
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "299513411_388632194_2_41_0"
+                ],
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "gross_amount_hotel_currency": {
+                        "value": 8800000,
+                        "amount_rounded": "VND 8,800,000",
+                        "amount_unrounded": "VND 8,800,000",
+                        "currency": "VND"
+                    },
+                    "benefits": [
+                        {
+                            "details": "This property is offering a discount on stays between Jan 1 and Apr 1, 2025.",
+                            "kind": "badge",
+                            "badge_variant": "constructive",
+                            "identifier": "early-2021-deals",
+                            "name": "Early 2025 Deal",
+                            "icon": null
+                        }
+                    ],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 280.37",
+                        "amount_rounded": "€ 280",
+                        "value": 280.373897707231
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "amount": {
+                            "currency": "EUR",
+                            "value": 0
+                        },
+                        "translated_copy": ""
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "€ 38",
+                        "value": 37.570102292769,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 37.57"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "gross_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 79.49",
+                        "amount_rounded": "€ 79",
+                        "value": 79.486
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 317.94",
+                        "currency": "EUR",
+                        "value": 317.944,
+                        "amount_rounded": "€ 318"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "value": 180.65,
+                        "amount_rounded": "€ 181",
+                        "amount_unrounded": "€ 180.65",
+                        "currency": "EUR"
+                    },
+                    "discounted_amount": {
+                        "amount_unrounded": "€ 404.66",
+                        "currency": "EUR",
+                        "value": 404.656,
+                        "amount_rounded": "€ 405"
+                    },
+                    "strikethrough_amount": {
+                        "amount_rounded": "€ 723",
+                        "value": 722.6,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 722.60"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "€ 317.94",
+                        "currency": "EUR",
+                        "value": 317.944,
+                        "amount_rounded": "€ 318"
+                    },
+                    "excluded_amount": {
+                        "amount_rounded": "€ 0",
+                        "value": 0,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0"
+                    },
+                    "items": [
+                        {
+                            "name": "VAT",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_rounded": "€ 24",
+                                "value": 23.5514074074074,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 23.55"
+                            },
+                            "details": "8 % VAT",
+                            "inclusion_type": "included"
+                        },
+                        {
+                            "item_amount": {
+                                "value": 14.0186948853616,
+                                "amount_rounded": "€ 14",
+                                "amount_unrounded": "€ 14.02",
+                                "currency": "EUR"
+                            },
+                            "inclusion_type": "included",
+                            "details": "5 % Service charge",
+                            "base": {
+                                "percentage": 5,
+                                "kind": "percentage"
+                            },
+                            "name": "Service charge",
+                            "kind": "charge"
+                        },
+                        {
+                            "kind": "discount",
+                            "name": "Early 2025 Deal",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "details": "This property is offering a discount on stays between Jan 1 and Apr 1, 2025.",
+                            "item_amount": {
+                                "value": 404.656,
+                                "amount_rounded": "€ 405",
+                                "amount_unrounded": "€ 404.66",
+                                "currency": "EUR"
+                            },
+                            "identifier": "campaign_37"
+                        }
+                    ],
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 8,800,000",
+                        "value": 8800000,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 8,800,000"
+                    }
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/504343675.jpg?k=fd03d4449e4bec23d91ea73d8b9a8120d99751da94845c50ac64257572b217a6&o=",
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "type": "property_card",
+                "accommodation_type": 206,
+                "review_score": 9.4,
+                "default_wishlist_name": "Hoi An",
+                "has_swimming_pool": 1,
+                "review_nr": 789,
+                "extended": 0,
+                "preferred_plus": 1,
+                "city_in_trans": "in Hoi An",
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Wonderful",
+                "class": 4,
+                "ribbon_text": "Breakfast included",
+                "default_language": "vi",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "cant_book": null,
+                "countrycode": "vn",
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "ufi": -3715584,
+                "min_total_price": 8800000,
+                "is_no_prepayment_block": 1,
+                "children_not_allowed": null,
+                "hotel_name_trans": "Hoi An Eco Lodge & Spa",
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "latitude": 15.8786717349755,
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "city": "Hoi An",
+                "hotel_name": "Hoi An Eco Lodge & Spa",
+                "main_photo_id": 504343675,
+                "has_free_parking": 1,
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "id": "Early Year Deals",
+                        "text": "Early 2025 Deal"
+                    }
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 1,
+                "class_is_estimated": 0
+            },
+            {
+                "hotel_id": 10274683,
+                "main_photo_id": 522117404,
+                "has_free_parking": 1,
+                "hotel_include_breakfast": 0,
+                "updated_checkout": null,
+                "badges": [],
+                "preferred": 1,
+                "class_is_estimated": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "cant_book": null,
+                "countrycode": "vn",
+                "min_total_price": 2686596,
+                "is_no_prepayment_block": 0,
+                "ufi": -3715584,
+                "hotel_name_trans": "Palm Garden & Pool Villas",
+                "checkin": {
+                    "until": "",
+                    "from": "14:00"
+                },
+                "latitude": 15.8858029514277,
+                "children_not_allowed": null,
+                "city": "Thành phố Hội An",
+                "hotel_name": "Palm Garden & Pool Villas",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "default_wishlist_name": "Hoi An",
+                "preferred_plus": 1,
+                "city_in_trans": "in Hoi An",
+                "has_swimming_pool": 1,
+                "review_nr": 514,
+                "extended": 0,
+                "default_language": "xu",
+                "distances": [],
+                "review_score_word": "Wonderful",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "class": 4,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": 1,
+                "is_free_cancellable": 0,
+                "longitude": 108.350607586686,
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "1027468301_389218310_2_2_0"
+                ],
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "VND 2,686,596",
+                        "currency": "VND",
+                        "value": 2686596,
+                        "amount_rounded": "VND 2,686,596"
+                    },
+                    "benefits": [],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "value": 89.8765865555555,
+                        "amount_rounded": "€ 90",
+                        "amount_unrounded": "€ 89.88",
+                        "currency": "EUR"
+                    },
+                    "charges_details": {
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        },
+                        "mode": "all_included"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 7.19",
+                        "amount_rounded": "€ 7",
+                        "value": 7.19012692444444
+                    },
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 24.27",
+                        "amount_rounded": "€ 24",
+                        "value": 24.26667837
+                    },
+                    "gross_amount": {
+                        "amount_rounded": "€ 97",
+                        "value": 97.06671348,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 97.07"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_unrounded": "€ 29.59",
+                        "currency": "EUR",
+                        "value": 29.59350492,
+                        "amount_rounded": "€ 30"
+                    },
+                    "discounted_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 21.31",
+                        "amount_rounded": "€ 21",
+                        "value": 21.3073062
+                    },
+                    "all_inclusive_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 97.07",
+                        "amount_rounded": "€ 97",
+                        "value": 97.06671348
+                    },
+                    "strikethrough_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 118.37",
+                        "amount_rounded": "€ 118",
+                        "value": 118.37401968
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR",
+                        "value": 0,
+                        "amount_rounded": "€ 0"
+                    },
+                    "items": [
+                        {
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "name": "VAT",
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 7.19012692444444,
+                                "amount_rounded": "€ 7",
+                                "amount_unrounded": "€ 7.19",
+                                "currency": "EUR"
+                            },
+                            "details": "8 % VAT",
+                            "inclusion_type": "included"
+                        },
+                        {
+                            "kind": "discount",
+                            "name": "Bonus savings",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "details": "You’re getting a reduced rate because this property is offering a discount.",
+                            "identifier": "basic-deal",
+                            "item_amount": {
+                                "amount_rounded": "€ 21",
+                                "value": 21.3073062,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 21.31"
+                            }
+                        }
+                    ],
+                    "all_inclusive_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 2,686,596",
+                        "amount_rounded": "VND 2,686,596",
+                        "value": 2686596
+                    }
+                },
+                "is_genius_deal": 0,
+                "id": "property_card_10274683",
+                "checkout": {
+                    "until": "12:00",
+                    "from": ""
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/522117404.jpg?k=921a578391fb2093a040eacc72cc4ab1b74180d3032384699ff19488db9cac25&o=",
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: Beds: 1 double or 2 twins",
+                "review_score": 9.4,
+                "type": "property_card",
+                "accommodation_type": 204
+            },
+            {
+                "hotel_id": 2293330,
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Very Good",
+                "class": 4,
+                "default_language": "vi",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "default_wishlist_name": "Danang",
+                "has_swimming_pool": 1,
+                "review_nr": 1160,
+                "extended": 0,
+                "preferred_plus": 1,
+                "city_in_trans": "in Danang",
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "type": "property_card",
+                "accommodation_type": 204,
+                "review_score": 8.1,
+                "is_genius_deal": 0,
+                "id": "property_card_2293330",
+                "is_free_cancellable": 1,
+                "longitude": 108.247398650332,
+                "currencycode": "VND",
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "229333021_393268864_2_0_0"
+                ],
+                "composite_price_breakdown": {
+                    "excluded_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 6.01",
+                        "amount_rounded": "€ 6",
+                        "value": 6.013769853
+                    },
+                    "items": [
+                        {
+                            "inclusion_type": "excluded",
+                            "details": "8 % VAT",
+                            "item_amount": {
+                                "amount_unrounded": "€ 3.59",
+                                "currency": "EUR",
+                                "value": 3.59031036,
+                                "amount_rounded": "€ 4"
+                            },
+                            "kind": "charge",
+                            "name": "VAT",
+                            "base": {
+                                "percentage": 8,
+                                "kind": "percentage"
+                            }
+                        },
+                        {
+                            "kind": "charge",
+                            "name": "Service charge",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 5
+                            },
+                            "inclusion_type": "excluded",
+                            "details": "5 % Service charge",
+                            "item_amount": {
+                                "amount_unrounded": "€ 2.42",
+                                "currency": "EUR",
+                                "value": 2.423459493,
+                                "amount_rounded": "€ 2"
+                            }
+                        },
+                        {
+                            "kind": "discount",
+                            "name": "Limited-time Deal",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "details": "You're getting a discount because—for a limited time only—this property is offering reduced rates on rooms that match your search.",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 134.64",
+                                "amount_rounded": "€ 135",
+                                "value": 134.6366385
+                            },
+                            "identifier": "limited-time-deal"
+                        }
+                    ],
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 1,408,598",
+                        "value": 1408598.1,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 1,408,598"
+                    },
+                    "all_inclusive_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 50.89",
+                        "amount_rounded": "€ 51",
+                        "value": 50.892649353
+                    },
+                    "strikethrough_amount": {
+                        "amount_rounded": "€ 180",
+                        "value": 179.515518,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 179.52"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 44.88",
+                        "currency": "EUR",
+                        "value": 44.8788795,
+                        "amount_rounded": "€ 45"
+                    },
+                    "gross_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 11.22",
+                        "amount_rounded": "€ 11",
+                        "value": 11.219719875
+                    },
+                    "strikethrough_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 44.88",
+                        "amount_rounded": "€ 45",
+                        "value": 44.8788795
+                    },
+                    "discounted_amount": {
+                        "value": 134.6366385,
+                        "amount_rounded": "€ 135",
+                        "amount_unrounded": "€ 134.64",
+                        "currency": "EUR"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR",
+                        "value": 0,
+                        "amount_rounded": "€ 0"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "charges_details": {
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 6,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": ""
+                    },
+                    "net_amount": {
+                        "amount_unrounded": "€ 44.88",
+                        "currency": "EUR",
+                        "value": 44.8788795,
+                        "amount_rounded": "€ 45"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 1,242,150",
+                        "amount_rounded": "VND 1,242,150",
+                        "value": 1242150
+                    },
+                    "benefits": [
+                        {
+                            "details": "You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours.",
+                            "kind": "badge",
+                            "badge_variant": "constructive",
+                            "icon": null,
+                            "name": "Limited-time Deal",
+                            "identifier": "limited-time-deal"
+                        }
+                    ]
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/560052722.jpg?k=be1c24ddea61bd7c07ca84961933f68f2c5baf97edc910e609611740f1120d60&o=",
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "badges": [
+                    {
+                        "text": "Limited-time Deal",
+                        "id": "Limited Time Deal",
+                        "badge_variant": "constructive"
+                    }
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "class_is_estimated": 0,
+                "main_photo_id": 560052722,
+                "has_free_parking": 1,
+                "hotel_include_breakfast": 0,
+                "children_not_allowed": null,
+                "hotel_name_trans": "Le Indochina Hotel & Beach Da Nang City",
+                "checkin": {
+                    "from": "14:00",
+                    "until": ""
+                },
+                "latitude": 16.0404661781739,
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "city": "Da Nang",
+                "hotel_name": "Le Indochina Hotel & Beach Da Nang City",
+                "cant_book": null,
+                "countrycode": "vn",
+                "urgency_message": "Only 3 left at this price on Booking.com",
+                "ufi": -3712125,
+                "min_total_price": 1242150,
+                "is_no_prepayment_block": 1
+            },
+            {
+                "hotel_id": 772612,
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "city": "Lang Co",
+                "hotel_name": "Lang Co Beach Resort",
+                "children_not_allowed": null,
+                "hotel_name_trans": "Lang Co Beach Resort",
+                "latitude": 16.2463611950756,
+                "checkin": {
+                    "until": "18:00",
+                    "from": "14:00"
+                },
+                "ufi": 900048531,
+                "is_no_prepayment_block": 0,
+                "min_total_price": 3530373,
+                "countrycode": "vn",
+                "cant_book": null,
+                "urgency_message": "Only 3 left at this price on Booking.com",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "hotel_has_vb_boost": 1,
+                "updated_checkin": null,
+                "class_is_estimated": 0,
+                "badges": [],
+                "preferred": 1,
+                "updated_checkout": null,
+                "has_free_parking": 1,
+                "main_photo_id": 651473741,
+                "accommodation_type": 206,
+                "type": "property_card",
+                "review_score": 7.9,
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: Beds: 1 double or 2 twins",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/651473741.jpg?k=96d1821ab069eb5810ed702eb342ae2b885c6405273b0ab84b3a68ca88b08985&o=",
+                "checkout": {
+                    "until": "12:00",
+                    "from": "09:00"
+                },
+                "is_genius_deal": 0,
+                "id": "property_card_772612",
+                "longitude": 108.076120018959,
+                "is_free_cancellable": 0,
+                "composite_price_breakdown": {
+                    "strikethrough_amount": {
+                        "amount_rounded": "€ 182",
+                        "value": 182.2176807,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 182.22"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 127.55237649,
+                        "amount_rounded": "€ 128",
+                        "amount_unrounded": "€ 127.55",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "value": 3530373,
+                        "amount_rounded": "VND 3,530,373",
+                        "amount_unrounded": "VND 3,530,373",
+                        "currency": "VND"
+                    },
+                    "items": [
+                        {
+                            "item_amount": {
+                                "amount_unrounded": "€ 9.45",
+                                "currency": "EUR",
+                                "value": 9.44832418444444,
+                                "amount_rounded": "€ 9"
+                            },
+                            "details": "8 % VAT",
+                            "inclusion_type": "included",
+                            "base": {
+                                "percentage": 8,
+                                "kind": "percentage"
+                            },
+                            "name": "VAT",
+                            "kind": "charge"
+                        },
+                        {
+                            "inclusion_type": "included",
+                            "details": "5 % Service charge",
+                            "item_amount": {
+                                "value": 5.62400249074074,
+                                "amount_rounded": "€ 6",
+                                "amount_unrounded": "€ 5.62",
+                                "currency": "EUR"
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 5
+                            },
+                            "name": "Service charge"
+                        },
+                        {
+                            "details": "You’re getting a reduced rate because this property is offering a discount.",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 54.67",
+                                "amount_rounded": "€ 55",
+                                "value": 54.66530421
+                            },
+                            "identifier": "basic-deal",
+                            "kind": "discount",
+                            "name": "Bonus savings",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ],
+                    "excluded_amount": {
+                        "value": 0,
+                        "amount_rounded": "€ 0",
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR"
+                    },
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 15.07",
+                        "amount_rounded": "€ 15",
+                        "value": 15.0723266751852
+                    },
+                    "strikethrough_amount_per_night": {
+                        "value": 45.554420175,
+                        "amount_rounded": "€ 46",
+                        "amount_unrounded": "€ 45.55",
+                        "currency": "EUR"
+                    },
+                    "discounted_amount": {
+                        "amount_rounded": "€ 55",
+                        "value": 54.66530421,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 54.67"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 31.8880941225,
+                        "amount_rounded": "€ 32",
+                        "amount_unrounded": "€ 31.89",
+                        "currency": "EUR"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 127.55",
+                        "currency": "EUR",
+                        "value": 127.55237649,
+                        "amount_rounded": "€ 128"
+                    },
+                    "net_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 112.48",
+                        "amount_rounded": "€ 112",
+                        "value": 112.480049814815
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        }
+                    },
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "value": 3530373,
+                        "amount_rounded": "VND 3,530,373",
+                        "amount_unrounded": "VND 3,530,373",
+                        "currency": "VND"
+                    },
+                    "has_long_stays_monthly_rate_price": 0
+                },
+                "genius_discount_percentage": 0,
+                "currencycode": "VND",
+                "block_ids": [
+                    "77261210_121938087_0_1_0"
+                ],
+                "is_geo_rate": 1,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Good",
+                "distances": [],
+                "class": 4,
+                "ribbon_text": "Breakfast included",
+                "default_language": "en",
+                "review_nr": 237,
+                "has_swimming_pool": 1,
+                "extended": 0,
+                "preferred_plus": 0,
+                "city_in_trans": "in Lang Co",
+                "default_wishlist_name": "Lang Co"
+            },
+            {
+                "hotel_id": 13446854,
+                "default_language": "vi",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Very Good",
+                "distances": [],
+                "class": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "default_wishlist_name": "Thôn Lại Thê",
+                "preferred_plus": 1,
+                "city_in_trans": "in Thôn Lại Thê",
+                "review_nr": 10,
+                "extended": 0,
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Room with shared bathroom</b>: 1 bed",
+                "review_score": 8.3,
+                "accommodation_type": 204,
+                "type": "property_card",
+                "longitude": 107.6016887,
+                "is_free_cancellable": 0,
+                "composite_price_breakdown": {
+                    "benefits": [
+                        {
+                            "details": "This property is offering a discount on stays between Jan 1 and Apr 1, 2025.",
+                            "kind": "badge",
+                            "icon": null,
+                            "identifier": "early-2021-deals",
+                            "name": "Early 2025 Deal",
+                            "badge_variant": "constructive"
+                        }
+                    ],
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 1,836,000",
+                        "amount_rounded": "VND 1,836,000",
+                        "value": 1836000
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "value": 60.969375,
+                        "amount_rounded": "€ 61",
+                        "amount_unrounded": "€ 60.97",
+                        "currency": "EUR"
+                    },
+                    "charges_details": {
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 6,
+                            "currency": "EUR"
+                        },
+                        "translated_copy": ""
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "value": 1,
+                            "key": "use_js_tracking"
+                        }
+                    ],
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 5.37",
+                        "amount_rounded": "€ 5",
+                        "value": 5.365305
+                    },
+                    "discounted_amount": {
+                        "value": 22.11156,
+                        "amount_rounded": "€ 22",
+                        "amount_unrounded": "€ 22.11",
+                        "currency": "EUR"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "€ 22",
+                        "value": 22.11156,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 22.11"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 66.33",
+                        "currency": "EUR",
+                        "value": 66.33468,
+                        "amount_rounded": "€ 66"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "€ 16.58",
+                        "currency": "EUR",
+                        "value": 16.58367,
+                        "amount_rounded": "€ 17"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 72.4316175,
+                        "amount_rounded": "€ 72",
+                        "amount_unrounded": "€ 72.43",
+                        "currency": "EUR"
+                    },
+                    "strikethrough_amount": {
+                        "amount_unrounded": "€ 88.45",
+                        "currency": "EUR",
+                        "value": 88.44624,
+                        "amount_rounded": "€ 88"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 2,004,750",
+                        "value": 2004750,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 2,004,750"
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "€ 6.10",
+                        "currency": "EUR",
+                        "value": 6.0969375,
+                        "amount_rounded": "€ 6"
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "name": "VAT",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "details": "8 % VAT",
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "amount_rounded": "€ 5",
+                                "value": 5.365305,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 5.37"
+                            }
+                        },
+                        {
+                            "inclusion_type": "excluded",
+                            "details": "10 % City tax",
+                            "item_amount": {
+                                "amount_unrounded": "€ 6.10",
+                                "currency": "EUR",
+                                "value": 6.0969375,
+                                "amount_rounded": "€ 6"
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "percentage": 10,
+                                "kind": "percentage"
+                            },
+                            "name": "City tax"
+                        },
+                        {
+                            "details": "This property is offering a discount on stays between Jan 1 and Apr 1, 2025.",
+                            "item_amount": {
+                                "value": 22.11156,
+                                "amount_rounded": "€ 22",
+                                "amount_unrounded": "€ 22.11",
+                                "currency": "EUR"
+                            },
+                            "identifier": "campaign_37",
+                            "kind": "discount",
+                            "name": "Early 2025 Deal",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ]
+                },
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "1344685401_406818538_1_1_0"
+                ],
+                "currencycode": "VND",
+                "is_genius_deal": 0,
+                "id": "property_card_13446854",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/642797260.jpg?k=5414dea6f91c8158c8aed2313f3663dbcee688edb291884568dacd7acdd853b8&o=",
+                "checkout": {
+                    "until": "12:00",
+                    "from": "12:00"
+                },
+                "updated_checkout": null,
+                "badges": [
+                    {
+                        "text": "Early 2025 Deal",
+                        "id": "Early Year Deals",
+                        "badge_variant": "constructive"
+                    }
+                ],
+                "preferred": 1,
+                "class_is_estimated": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "hotel_has_vb_boost": 1,
+                "updated_checkin": null,
+                "main_photo_id": 642797260,
+                "has_free_parking": 1,
+                "hotel_include_breakfast": 0,
+                "hotel_name_trans": "Royal Homestay And Coffee",
+                "latitude": 16.4710788,
+                "checkin": {
+                    "from": "14:00",
+                    "until": "23:00"
+                },
+                "children_not_allowed": null,
+                "city": "Thành phố Huế",
+                "hotel_name": "Royal Homestay And Coffee",
+                "is_tpi_exclusive_property": 0,
+                "soldout": 0,
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "countrycode": "vn",
+                "cant_book": null,
+                "is_no_prepayment_block": 1,
+                "min_total_price": 1836000,
+                "ufi": -3730661
+            },
+            {
+                "hotel_id": 8224015,
+                "default_wishlist_name": "Hue",
+                "extended": 0,
+                "review_nr": 812,
+                "city_in_trans": "in Hue",
+                "preferred_plus": 0,
+                "class": 0,
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Very Good",
+                "default_language": "vi",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "id": "property_card_8224015",
+                "is_genius_deal": 0,
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "822401505_395605669_3_0_0"
+                ],
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "benefits": [
+                        {
+                            "kind": "badge",
+                            "details": "You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours.",
+                            "badge_variant": "constructive",
+                            "name": "Limited-time Deal",
+                            "identifier": "limited-time-deal",
+                            "icon": null
+                        }
+                    ],
+                    "gross_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 1,855,471",
+                        "amount_rounded": "VND 1,855,471",
+                        "value": 1855471
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "amount_rounded": "€ 67",
+                        "value": 67.03816723,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 67.04"
+                    },
+                    "charges_details": {
+                        "mode": "extra_charges",
+                        "translated_copy": "",
+                        "amount": {
+                            "currency": "EUR",
+                            "value": 9
+                        }
+                    },
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        },
+                        {
+                            "key": "use_nightly_as_dominant",
+                            "value": 0
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0",
+                        "amount_rounded": "€ 0",
+                        "value": 0
+                    },
+                    "discounted_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 124.50",
+                        "amount_rounded": "€ 124",
+                        "value": 124.49942762
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "€ 48",
+                        "value": 47.8843987125,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 47.88"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 67.04",
+                        "currency": "EUR",
+                        "value": 67.03816723,
+                        "amount_rounded": "€ 67"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "€ 16.76",
+                        "currency": "EUR",
+                        "value": 16.7595418075,
+                        "amount_rounded": "€ 17"
+                    },
+                    "strikethrough_amount": {
+                        "amount_unrounded": "€ 191.54",
+                        "currency": "EUR",
+                        "value": 191.53759485,
+                        "amount_rounded": "€ 192"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 75.7531289699,
+                        "amount_rounded": "€ 76",
+                        "amount_unrounded": "€ 75.75",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "currency": "VND",
+                        "amount_unrounded": "VND 2,096,682",
+                        "amount_rounded": "VND 2,096,682",
+                        "value": 2096682.23
+                    },
+                    "items": [
+                        {
+                            "inclusion_type": "included",
+                            "details": "0 % City tax",
+                            "item_amount": {
+                                "value": 0,
+                                "amount_rounded": "€ 0",
+                                "amount_unrounded": "€ 0",
+                                "currency": "EUR"
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "percentage": 0,
+                                "kind": "percentage"
+                            },
+                            "name": "City tax"
+                        },
+                        {
+                            "item_amount": {
+                                "value": 5.3630533784,
+                                "amount_rounded": "€ 5",
+                                "amount_unrounded": "€ 5.36",
+                                "currency": "EUR"
+                            },
+                            "inclusion_type": "excluded",
+                            "details": "8 % VAT",
+                            "name": "VAT",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 8
+                            },
+                            "kind": "charge"
+                        },
+                        {
+                            "item_amount": {
+                                "amount_rounded": "€ 3",
+                                "value": 3.3519083615,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 3.35"
+                            },
+                            "details": "5 % Service charge",
+                            "inclusion_type": "excluded",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 5
+                            },
+                            "name": "Service charge",
+                            "kind": "charge"
+                        },
+                        {
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "name": "Limited-time Deal",
+                            "kind": "discount",
+                            "item_amount": {
+                                "amount_unrounded": "€ 124.50",
+                                "currency": "EUR",
+                                "value": 124.49942762,
+                                "amount_rounded": "€ 124"
+                            },
+                            "identifier": "limited-time-deal",
+                            "details": "You're getting a discount because—for a limited time only—this property is offering reduced rates on rooms that match your search."
+                        }
+                    ],
+                    "excluded_amount": {
+                        "amount_rounded": "€ 9",
+                        "value": 8.7149617399,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 8.71"
+                    }
+                },
+                "is_free_cancellable": 1,
+                "longitude": 107.592857,
+                "checkout": {
+                    "from": "11:30",
+                    "until": "12:00"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/570036603.jpg?k=d4197bbfc0fccf057785c043c48c104ec4aab0e6224bbaeee36ea4a3fd414abd&o=",
+                "unit_configuration_label": "<b>Private room</b>: 2 beds",
+                "is_smart_deal": 0,
+                "booking_home": {
+                    "quality_class": 3,
+                    "is_single_unit_property": "",
+                    "segment": 1,
+                    "is_booking_home": 1,
+                    "group": "apartment_like"
+                },
+                "type": "property_card",
+                "accommodation_type": 219,
+                "review_score": 8.3,
+                "main_photo_id": 570036603,
+                "hotel_include_breakfast": 0,
+                "has_free_parking": 1,
+                "preferred": 1,
+                "badges": [
+                    {
+                        "text": "Limited-time Deal",
+                        "id": "Limited Time Deal",
+                        "badge_variant": "constructive"
+                    }
+                ],
+                "updated_checkout": null,
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 1,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "class_is_estimated": 0,
+                "cant_book": null,
+                "countrycode": "vn",
+                "urgency_message": "Only 2 left at this price on Booking.com",
+                "ufi": -3715887,
+                "min_total_price": 1855471,
+                "is_no_prepayment_block": 1,
+                "children_not_allowed": null,
+                "checkin": {
+                    "from": "14:00",
+                    "until": "00:00"
+                },
+                "latitude": 16.464739,
+                "hotel_name_trans": "KLy Apartment Hotel",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "hotel_name": "KLy Apartment Hotel",
+                "city": "Thành phố Huế"
+            },
+            {
+                "hotel_id": 10645853,
+                "updated_checkout": null,
+                "preferred": 1,
+                "badges": [
+                    {
+                        "id": "Limited Time Deal",
+                        "text": "Limited-time Deal",
+                        "badge_variant": "constructive"
+                    }
+                ],
+                "class_is_estimated": 0,
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "main_photo_id": 554708516,
+                "has_free_parking": 1,
+                "checkin": {
+                    "from": "14:00",
+                    "until": "00:00"
+                },
+                "latitude": 15.872266814014,
+                "hotel_name_trans": "ENSO Retreat Hoi An - Rediscovery & Serenity",
+                "children_not_allowed": null,
+                "hotel_name": "ENSO Retreat Hoi An - Rediscovery & Serenity",
+                "city": "Hoi An",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "cant_book": null,
+                "countrycode": "vn",
+                "min_total_price": 5544000,
+                "is_no_prepayment_block": 0,
+                "ufi": -3715584,
+                "default_language": "en",
+                "ribbon_text": "Breakfast included",
+                "class": 4,
+                "distances": [],
+                "review_score_word": "Exceptional",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "is_geo_rate": "",
+                "default_wishlist_name": "Hoi An",
+                "city_in_trans": "in Hoi An",
+                "preferred_plus": 1,
+                "extended": 0,
+                "has_swimming_pool": 1,
+                "review_nr": 758,
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "is_smart_deal": 0,
+                "review_score": 9.8,
+                "type": "property_card",
+                "accommodation_type": 206,
+                "genius_discount_percentage": 0,
+                "block_ids": [
+                    "1064585301_378844323_0_1_0"
+                ],
+                "currencycode": "VND",
+                "composite_price_breakdown": {
+                    "has_long_stays_monthly_rate_price": 0,
+                    "benefits": [
+                        {
+                            "kind": "badge",
+                            "details": "You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours.",
+                            "icon": null,
+                            "identifier": "limited-time-deal",
+                            "name": "Limited-time Deal",
+                            "badge_variant": "constructive"
+                        }
+                    ],
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "VND 5,544,000",
+                        "currency": "VND",
+                        "value": 5544000,
+                        "amount_rounded": "VND 5,544,000"
+                    },
+                    "charges_details": {
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        },
+                        "mode": "all_included"
+                    },
+                    "net_amount": {
+                        "amount_rounded": "€ 185",
+                        "value": 185.467333333333,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 185.47"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "€ 50",
+                        "value": 50.07618,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 50.08"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "€ 200.30",
+                        "currency": "EUR",
+                        "value": 200.30472,
+                        "amount_rounded": "€ 200"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 113.81",
+                        "amount_rounded": "€ 114",
+                        "value": 113.8095
+                    },
+                    "discounted_amount": {
+                        "amount_rounded": "€ 255",
+                        "value": 254.93328,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 254.93"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 14.84",
+                        "amount_rounded": "€ 15",
+                        "value": 14.8373866666667
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "items": [
+                        {
+                            "details": "8 % VAT",
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "amount_rounded": "€ 15",
+                                "value": 14.8373866666667,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 14.84"
+                            },
+                            "kind": "charge",
+                            "name": "VAT",
+                            "base": {
+                                "percentage": 8,
+                                "kind": "percentage"
+                            }
+                        },
+                        {
+                            "details": "You're getting a discount because—for a limited time only—this property is offering reduced rates on rooms that match your search.",
+                            "identifier": "limited-time-deal",
+                            "item_amount": {
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 254.93",
+                                "amount_rounded": "€ 255",
+                                "value": 254.93328
+                            },
+                            "kind": "discount",
+                            "name": "Limited-time Deal",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ],
+                    "excluded_amount": {
+                        "amount_rounded": "€ 0",
+                        "value": 0,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 0"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_rounded": "VND 5,544,000",
+                        "value": 5544000,
+                        "currency": "VND",
+                        "amount_unrounded": "VND 5,544,000"
+                    },
+                    "strikethrough_amount": {
+                        "amount_rounded": "€ 455",
+                        "value": 455.238,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 455.24"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 200.30472,
+                        "amount_rounded": "€ 200",
+                        "amount_unrounded": "€ 200.30",
+                        "currency": "EUR"
+                    }
+                },
+                "is_free_cancellable": 0,
+                "longitude": 108.370953830671,
+                "id": "property_card_10645853",
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "12:00",
+                    "from": "00:30"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/554708516.jpg?k=0f4113222bb0f321b70a6e20c2372b1e2d1454bd7fa307ce6369f57425aa3437&o="
+            },
+            {
+                "hotel_id": 6019732,
+                "hotel_include_breakfast": 0,
+                "has_free_parking": 1,
+                "main_photo_id": 398047007,
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "timezone": "Asia/Ho_Chi_Minh",
+                "class_is_estimated": 0,
+                "preferred": 1,
+                "badges": [],
+                "updated_checkout": null,
+                "ufi": -3715887,
+                "min_total_price": 2729629.63564904,
+                "is_no_prepayment_block": 0,
+                "cant_book": null,
+                "countrycode": "vn",
+                "soldout": 0,
+                "is_tpi_exclusive_property": 0,
+                "hotel_name": "Nana Homestay & Villa",
+                "city": "Huế",
+                "children_not_allowed": null,
+                "checkin": {
+                    "until": "23:30",
+                    "from": "14:00"
+                },
+                "latitude": 16.4568800184497,
+                "hotel_name_trans": "Nana Homestay & Villa",
+                "extended": 0,
+                "review_nr": 1244,
+                "city_in_trans": "in Hue",
+                "preferred_plus": 1,
+                "default_wishlist_name": "Hue",
+                "is_geo_rate": "",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "class": 0,
+                "distances": [],
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score_word": "Excellent",
+                "default_language": "vi",
+                "checkout": {
+                    "until": "12:00",
+                    "from": "07:00"
+                },
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/398047007.jpg?k=638875c12bd2242f7b1cf902fff45b8d49451ee4fdb6cbf2e01ee8908c0b2450&o=",
+                "id": "property_card_6019732",
+                "is_genius_deal": 0,
+                "genius_discount_percentage": 0,
+                "currencycode": "VND",
+                "block_ids": [
+                    "601973201_0_1_1_0"
+                ],
+                "composite_price_breakdown": {
+                    "items": [
+                        {
+                            "item_amount": {
+                                "amount_rounded": "€ 8",
+                                "value": 8.0673512512,
+                                "currency": "EUR",
+                                "amount_unrounded": "€ 8.07"
+                            },
+                            "details": null,
+                            "inclusion_type": "included",
+                            "base": {
+                                "base_amount": 8.72,
+                                "kind": "per_stay"
+                            },
+                            "name": "TAX",
+                            "kind": "charge"
+                        },
+                        {
+                            "name": "Service charge",
+                            "base": {
+                                "base_amount": 3.88,
+                                "kind": "per_stay"
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 3.5896012448,
+                                "amount_rounded": "€ 4",
+                                "amount_unrounded": "€ 3.59",
+                                "currency": "EUR"
+                            },
+                            "details": null,
+                            "inclusion_type": "included"
+                        }
+                    ],
+                    "excluded_amount": {
+                        "value": 0,
+                        "amount_rounded": "€ 0",
+                        "amount_unrounded": "€ 0",
+                        "currency": "EUR"
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "amount_unrounded": "VND 2,729,630",
+                        "currency": "VND",
+                        "value": 2729629.63564904,
+                        "amount_rounded": "VND 2,729,630"
+                    },
+                    "all_inclusive_amount": {
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 98.62",
+                        "amount_rounded": "€ 99",
+                        "value": 98.621518736
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "€ 25",
+                        "value": 24.655379684,
+                        "currency": "EUR",
+                        "amount_unrounded": "€ 24.66"
+                    },
+                    "gross_amount": {
+                        "value": 98.621518736,
+                        "amount_rounded": "€ 99",
+                        "amount_unrounded": "€ 98.62",
+                        "currency": "EUR"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 11.656952496,
+                        "amount_rounded": "€ 12",
+                        "amount_unrounded": "€ 11.66",
+                        "currency": "EUR"
+                    },
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        },
+                        {
+                            "value": 0,
+                            "key": "use_nightly_as_dominant"
+                        },
+                        {
+                            "key": "use_js_tracking",
+                            "value": 1
+                        }
+                    ],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "",
+                        "amount": {
+                            "value": 0,
+                            "currency": "EUR"
+                        }
+                    },
+                    "net_amount": {
+                        "amount_unrounded": "€ 86.96",
+                        "currency": "EUR",
+                        "value": 86.96456624,
+                        "amount_rounded": "€ 87"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "value": 2729629.63564904,
+                        "amount_rounded": "VND 2,729,630",
+                        "amount_unrounded": "VND 2,729,630",
+                        "currency": "VND"
+                    },
+                    "benefits": []
+                },
+                "is_free_cancellable": 0,
+                "longitude": 107.596163045013,
+                "type": "property_card",
+                "accommodation_type": 222,
+                "review_score": 8.6,
+                "unit_configuration_label": "<b>Private room</b>: 1 bed",
+                "is_smart_deal": 0,
+                "booking_home": {
+                    "quality_class": 0,
+                    "segment": 0,
+                    "group": "hotels_and_others",
+                    "is_booking_home": 1,
+                    "is_single_unit_property": ""
+                }
+            }
+        ],
+        "primary_count": 1385,
+        "extended_count": 0,
+        "count": 1385,
+        "b_max_los_data": {
+            "experiment": "long_stays_ios_extend_los_2",
+            "max_allowed_los": 90,
+            "has_extended_los": 1,
+            "extended_los": 90,
+            "is_fullon": 0,
+            "default_los": 45
+        },
+        "has_low_availability": "",
+        "unfiltered_count": 3148
+    }
+}
