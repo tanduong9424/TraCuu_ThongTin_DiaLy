@@ -22,3 +22,8 @@ Mô tả chức năng ứng dụng (phải có GUI):
 - Yêu cầu về chức năng phía server (không cần GUI):
 - Mã hóa nội dung tin nhắn giữa client – server. Phải sử dụng key khác nhau cho các client
 - Các client hoạt động trên các máy tính khác nhau.
+
+# Thư viện sử dụng:
+- jsoup-1.19.1.jar
+- json-20250107.jar (hoặc json-20230618.jar)
+- AbsoluteLayout.jar (của NetBeans, nằm trong đường dẫn (mặc định): C:\Program Files\NetBeans-XX\netbeans\java\modules\ext)
