@@ -50,17 +50,12 @@ public class ResultCity extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
         jLabel2 = new javax.swing.JLabel();
-        dieuhuongHotel = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        clickHotel = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setLocation(new java.awt.Point(400, 130));
 
         title.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        title.setText("KẾT QUẢ TÌM KIẾM: Thành Phố Hồ Chí Minh");
+        title.setText("KẾT QUẢ TÌM KIẾM:");
 
         ThongTinDiaLy.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -192,51 +187,6 @@ public class ResultCity extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel3.setText("CẦN TÌM KHÁCH SẠN?");
-
-        jLabel4.setText("HÃY ĐỂ CHÚNG TÔI GIÚP BẠN!");
-
-        clickHotel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/point.png"))); // NOI18N
-        clickHotel.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                clickHotelMouseClicked(evt);
-            }
-        });
-
-        jLabel5.setText("Click here");
-
-        javax.swing.GroupLayout dieuhuongHotelLayout = new javax.swing.GroupLayout(dieuhuongHotel);
-        dieuhuongHotel.setLayout(dieuhuongHotelLayout);
-        dieuhuongHotelLayout.setHorizontalGroup(
-            dieuhuongHotelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, dieuhuongHotelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(dieuhuongHotelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                .addGroup(dieuhuongHotelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel5)
-                    .addComponent(clickHotel, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap())
-        );
-        dieuhuongHotelLayout.setVerticalGroup(
-            dieuhuongHotelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(dieuhuongHotelLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(dieuhuongHotelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(dieuhuongHotelLayout.createSequentialGroup()
-                        .addComponent(clickHotel, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel5))
-                    .addGroup(dieuhuongHotelLayout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
         javax.swing.GroupLayout ketquaThanhPhoLayout = new javax.swing.GroupLayout(ketquaThanhPho);
         ketquaThanhPho.setLayout(ketquaThanhPhoLayout);
         ketquaThanhPhoLayout.setHorizontalGroup(
@@ -251,18 +201,14 @@ public class ResultCity extends javax.swing.JFrame {
                     .addComponent(newpapers, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(ketquaThanhPhoLayout.createSequentialGroup()
                         .addComponent(title, javax.swing.GroupLayout.PREFERRED_SIZE, 678, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(dieuhuongHotel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(31, 31, 31)))
+                        .addGap(31, 516, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         ketquaThanhPhoLayout.setVerticalGroup(
             ketquaThanhPhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(ketquaThanhPhoLayout.createSequentialGroup()
-                .addGroup(ketquaThanhPhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(title, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(dieuhuongHotel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(title, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
                 .addGroup(ketquaThanhPhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ThongTinDiaLy, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ThoiTiet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -286,13 +232,6 @@ public class ResultCity extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void clickHotelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clickHotelMouseClicked
-        // TODO add your handling code here:
-        SearchHotel x=new SearchHotel();
-        x.setVisible(true);
-        dispose();
-    }//GEN-LAST:event_clickHotelMouseClicked
     
     /**
      * @param args the command line arguments
@@ -307,7 +246,7 @@ public class ResultCity extends javax.swing.JFrame {
                         JOptionPane.YES_NO_OPTION);
 
                 if (confirmed == JOptionPane.YES_OPTION) {
-                    Client x=new Client();
+                    Client1 x=new Client1();
                     x.setVisible(true);
                     dispose(); // Đóng cửa sổ (giải phóng tài nguyên)
                 }
@@ -359,15 +298,10 @@ public class ResultCity extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel ThoiTiet;
     private javax.swing.JPanel ThongTinDiaLy;
-    private javax.swing.JButton clickHotel;
     private javax.swing.JLabel danso;
-    private javax.swing.JPanel dieuhuongHotel;
     private javax.swing.JLabel doam;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable2;
     private javax.swing.JPanel ketquaThanhPho;

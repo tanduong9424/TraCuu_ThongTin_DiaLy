@@ -3,16 +3,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package DoAnUngDungMang;
+import DoAnUngDungMang.SearchHotel;
+import static DoAnUngDungMang.test.getAddressFromCoordinates;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.util.Arrays;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDate;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-
+import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author DELL
@@ -43,18 +51,21 @@ public class Server {
     }
 
     private  String xulyInput(String input){
-        /*if(input.toLowerCase().startsWith("weather ")){// tra cứu thời tiết 
-            return processData1(input.substring("weather ".length()).trim());
+        /*if(input.toLowerCase().startsWith("location/")){// tra cứu thời tiết 
+            return processData1(input.substring("location/".length()).trim());
         }
             
-        else if(input.toLowerCase().startsWith("convert ")){//chuyển đổi cơ số 
-            String tmp = input.substring("convert ".length()).trim();
-            String [] parts =tmp.split(" ");
-            return processData2(parts[0], parts[1], parts[2]);  
-        }
+        else if(input.toLowerCase().startsWith("hotel/")){//chuyển đổi cơ số 
+            return processData2(parts[0], parts[1], parts[2]);
+            String date=input.substring("hotel/".length()).trim();
+            String [] parts =date.split("/");
+            
+            return processData2(parts[0], parts[1]);
+        }*/
         //trường hợp nhập lỗi 
-        return "Lỗi tra cứu vui lòng nhập lại";*/
-        return processData1(input);
+        //return "Lỗi tra cứu vui lòng nhập lại";
+        return processData1(input.toLowerCase());
+        
     }
     
         // Xử lý dữ liệu khi tra cứu thời tiết 
@@ -84,12 +95,15 @@ public class Server {
             Integer humidity=values.getInt("humidity");//lấy độ ẩm
             
             double kinhdo=location.getDouble("lon");//longitude 
-            //kinhdo = Math.round(kinhdo * 100.0) / 100.0;// Làm tròn đến 3 chữ số thập phân
+            double kinhdo1 = Math.round(kinhdo * 100.0) / 100.0;// Làm tròn đến 3 chữ số thập phân
 
             double vido=location.getDouble("lat");//latitude 
-            //vido = Math.round(vido * 100.0) / 100.0;// Làm tròn đến 3 chữ số thập phân
+            double vido1 = Math.round(vido * 100.0) / 100.0;// Làm tròn đến 3 chữ số thập phân
             
-            result+=tendialy+"/"+time+"/"+uv+"/"+temperature+"/"+humidity+"/"+kinhdo+"/"+vido;
+      
+            //String khachsan=processData2(kinhdo,vido);
+           
+            result+=tendialy+"//"+time+"//"+uv+"//"+temperature+"//"+humidity+"//"+kinhdo1+"//"+vido1;//+khachsan;
 
         } catch(Exception e){
             System.err.println(e.getMessage());
@@ -97,31 +111,83 @@ public class Server {
         return result;
     }
 
-    private String processData2(String from, String to ,String input) {
-        String result="";        
-        String url = "https://networkcalc.com/api/binary/"+input;
-        try{
-            Document doc = Jsoup.connect(url) // kết nối đến API
-                    .method(Connection.Method.GET) // với phương thức GET
-                    .data("from", from)
-                    .data("to",to)
-                    .ignoreContentType(true) // sử dụng trong trường hợp dữ liệu trả về là JSON
-                    .execute() // thực thi request
-                    .parse(); // Chuyển dữ liệu của request từ dạng Response -> Document
-            
-            JSONObject json = new JSONObject(doc.text());
+    private String processData2(double kinhdo, double vido) throws IOException, InterruptedException {
+      LocalDate currentDate = LocalDate.now();
+      LocalDate tomorrow = currentDate.plusDays(1);// Lấy ngày mai (ngày hiện tại + 1 ngày)
+      String ketqua="";
+      HttpRequest request = HttpRequest.newBuilder()
+		.uri(URI.create("https://booking-com15.p.rapidapi.com/api/v1/hotels/searchHotelsByCoordinates?"+
+                        "latitude="+vido
+                        +"&longitude="+kinhdo//SỬA KINH ĐỘ VĨ ĐỘ ĐỂ TRA CỨU, LẤY TỪ BÊN TRA CỨU THỜI TIẾT :V
+                        +"&arrival_date="+currentDate
+                        +"&departure_date="+tomorrow
+                        //+ "&adults=1"
+                        //+ "&children_age=0%2C17"
+                        + "&room_qty=1"
+                        + "&units=metric&page_number=1"
+                        + "&temperature_unit=c"
+                        + "&languagecode=en-us"
+                        + "&currency_code=EUR"
+                        + "&location=US"))
+               
+              
+                .header("x-rapidapi-key", "b9573d7cadmshc45692d23865c48p1f4603jsnb4bcb77dc1bd")
+		.header("x-rapidapi-host", "booking-com15.p.rapidapi.com")
+		.method("GET", HttpRequest.BodyPublishers.noBody())
+		.build();
+      
+            HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+            String jsonData=response.body();
+             JSONObject jsonObject = new JSONObject(jsonData);
+            //System.out.println(response.body());
 
-            String cosoFrom = json.getString("from");
-            String cosoTo = json.getString("to");
-            String ketqua = json.getString("converted");
+         if (jsonObject.getBoolean("status")) {
+            JSONObject data = jsonObject.getJSONObject("data");
+            JSONArray results = data.getJSONArray("result");
             
-            result = "Kết quả đổi "+ input +"từ cơ số "+ from + " sang cơ số "+ to +": "+ketqua;
+            
+            //SearchHotel x=new SearchHotel();
+            //x.setVisible(true);
+               
+               
+            // Duyệt qua mảng "result"
+            for (int i = 0; i < results.length(); i++) {
+                JSONObject hotel = results.getJSONObject(i);//duyệt danh sách khách sạn
 
-        } catch(Exception e){
-            System.err.println(e.getMessage());
+                String hotelName = hotel.getString("hotel_name");//lấy ra 1
+                
+                JSONObject composite_price_breakdown=hotel.getJSONObject("composite_price_breakdown");
+                JSONObject all_inclusive_amount_hotel_currency=composite_price_breakdown.getJSONObject("all_inclusive_amount_hotel_currency");
+                Integer price =all_inclusive_amount_hotel_currency.getInt("value");
+                String currency=all_inclusive_amount_hotel_currency.getString("currency");
+                String PriceHotel =price+" "+currency;//lấy ra 2 
+                
+                double reivew=hotel.getDouble("review_score");//lấy ra 3
+                
+                double longitude=hotel.getDouble("longitude");//tung do
+                double latitude=hotel.getDouble("latitude");//vido
+                String address = getAddressFromCoordinates(latitude, longitude);//lấy ra 4
+
+               /* System.out.println("Hotel Name: " + hotelName);
+                System.out.println("Price: " + price+" "+currency);
+                System.out.println("Review: " + reivew);
+                //System.out.println("Tung độ "+longitude);
+                //System.out.println("Vĩ độ "+latitude);
+                System.out.println("Địa chỉ "+address);
+                System.out.println("----------------------------------------");*/
+                
+                ketqua+="-"+hotelName+"/"+PriceHotel+"/"+reivew+"/"+address+"?";
+                //Object[] row = {hotelName,PriceHotel,reivew,address};
+                //x.updateDatatable(row);
+                
+            }
+        } 
+        else {
+            System.out.println("Lỗi: " + jsonObject.getString("message"));
         }
-        return result;
+        return ketqua;
     }
+
     
     private String receivedData(DatagramSocket socket) throws IOException {
         receivePacket = new DatagramPacket(new byte[bufferSize], bufferSize);
@@ -132,6 +198,7 @@ public class Server {
 
     private void sendData(DatagramSocket socket, String receivedData) throws IOException {
         String response=xulyInput(receivedData);//dữ liệu gửi đi được lấy ra ở đây 
+        System.out.println("Du lieu gui "+response);
         byte[] responseBytes = response.getBytes(StandardCharsets.UTF_8);
         DatagramPacket packet = new DatagramPacket(responseBytes, responseBytes.length, receivePacket.getAddress(), receivePacket.getPort());
         socket.send(packet);

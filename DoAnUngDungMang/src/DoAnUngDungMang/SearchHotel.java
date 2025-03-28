@@ -9,13 +9,17 @@ import java.awt.event.WindowEvent;
 import java.util.Date;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import com.github.lgooddatepicker.components.DatePicker;
+import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
  * @author DELL
  */
 public class SearchHotel extends javax.swing.JFrame {
-
+    
     /**
      * Creates new form SearchHotel
      */
@@ -36,7 +40,7 @@ public class SearchHotel extends javax.swing.JFrame {
         KhachSan = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        danhsachHotel = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
         inputdate = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -44,44 +48,21 @@ public class SearchHotel extends javax.swing.JFrame {
         inputNgayNhan = new javax.swing.JTextField();
         inputNgayTra = new javax.swing.JTextField();
         search = new javax.swing.JButton();
-        ngaynhan = new com.toedter.calendar.JCalendar();
-        ngaytra = new com.toedter.calendar.JCalendar();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setLocation(new java.awt.Point(400, 130));
-        setPreferredSize(new java.awt.Dimension(1104, 789));
 
         KhachSan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel12.setText("ĐỀ XUẤT KHÁCH SẠN TRONG KHU VỰC: ");
 
-        jTable1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        danhsachHotel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        danhsachHotel.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
                 "Tên khách sạn", "Giá thuê", "Đánh giá", "Địa chỉ"
@@ -95,7 +76,7 @@ public class SearchHotel extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(danhsachHotel);
 
         javax.swing.GroupLayout KhachSanLayout = new javax.swing.GroupLayout(KhachSan);
         KhachSan.setLayout(KhachSanLayout);
@@ -116,8 +97,8 @@ public class SearchHotel extends javax.swing.JFrame {
             .addGroup(KhachSanLayout.createSequentialGroup()
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
@@ -127,14 +108,18 @@ public class SearchHotel extends javax.swing.JFrame {
 
         jLabel3.setText("Ngày trả phòng :");
 
+        inputNgayNhan.setEditable(false);
         inputNgayNhan.setText("From ");
+        inputNgayNhan.setFocusable(false);
         inputNgayNhan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 inputNgayNhanActionPerformed(evt);
             }
         });
 
+        inputNgayTra.setEditable(false);
         inputNgayTra.setText("To ");
+        inputNgayTra.setFocusable(false);
         inputNgayTra.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 inputNgayTraActionPerformed(evt);
@@ -148,6 +133,20 @@ public class SearchHotel extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/icons8_calendar_31_30px.png"))); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/icons8_calendar_31_30px.png"))); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout inputdateLayout = new javax.swing.GroupLayout(inputdate);
         inputdate.setLayout(inputdateLayout);
         inputdateLayout.setHorizontalGroup(
@@ -156,40 +155,38 @@ public class SearchHotel extends javax.swing.JFrame {
                 .addGap(94, 94, 94)
                 .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(inputNgayNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ngaynhan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(58, 58, 58)
-                .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
                     .addGroup(inputdateLayout.createSequentialGroup()
-                        .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ngaytra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(inputNgayTra, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(497, Short.MAX_VALUE))
+                        .addComponent(inputNgayNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(150, 150, 150)
+                .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(inputdateLayout.createSequentialGroup()
+                        .addGap(8, 8, 8)
+                        .addComponent(jLabel3)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(inputdateLayout.createSequentialGroup()
+                        .addComponent(inputNgayTra, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(78, 78, 78)
+                        .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 238, Short.MAX_VALUE))))
         );
         inputdateLayout.setVerticalGroup(
             inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, inputdateLayout.createSequentialGroup()
+                .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3))
                 .addGap(0, 0, 0)
-                .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(inputdateLayout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addGap(0, 0, 0)
-                        .addComponent(ngaytra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, 0)
-                        .addComponent(inputNgayTra, javax.swing.GroupLayout.DEFAULT_SIZE, 32, Short.MAX_VALUE))
-                    .addGroup(inputdateLayout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(0, 0, 0)
-                        .addComponent(ngaynhan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, 0)
-                        .addComponent(inputNgayNhan))
-                    .addGroup(inputdateLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                .addGroup(inputdateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(search, javax.swing.GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
+                    .addComponent(inputNgayTra)
+                    .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(inputNgayNhan, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -215,17 +212,15 @@ public class SearchHotel extends javax.swing.JFrame {
                 .addComponent(inputdate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(KhachSan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    private void getDate(){
-        Date x=ngaynhan.getDate();
-        inputNgayNhan.setText(x.toString());
-        Date y=ngaytra.getDate();
-        inputNgayTra.setText(y.toString());
-
+    public void updateDatatable(Object [] row){
+        DefaultTableModel model = (DefaultTableModel) danhsachHotel.getModel();
+        //model.setRowCount(0);
+        model.addRow(row);
     }
     private void setupWindowListener() {
         addWindowListener(new WindowAdapter() {
@@ -237,16 +232,34 @@ public class SearchHotel extends javax.swing.JFrame {
                         JOptionPane.YES_NO_OPTION);
 
                 if (confirmed == JOptionPane.YES_OPTION) {
-                    Client x=new Client();
+                    Client1 x=new Client1();
                     x.setVisible(true);
                     dispose(); // Đóng cửa sổ (giải phóng tài nguyên)
                 }
             }
         });
     }
+    private void checkDate(){
+        String date1Str = inputNgayNhan.getText();
+        String date2Str =inputNgayTra.getText();
+        try {
+             LocalDate date1 = LocalDate.parse(date1Str);
+             LocalDate date2 = LocalDate.parse(date2Str);
+            if (date1.isAfter(date2)) {
+                JOptionPane.showMessageDialog(this, "Ngày trả trước ngày nhận !", "Lỗi chọn ngày", JOptionPane.INFORMATION_MESSAGE);
+            }else {
+                Client1 x= new Client1("127.0.0.1", 1234, 1024);
+                x.start("hotel/"+date1Str+"/"+date2Str);
+            }
+
+        } catch (DateTimeParseException e) {
+            System.out.println("Lỗi định dạng ngày tháng: " + e.getMessage());
+        }
+    }
+    
     private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
         // TODO add your handling code here:
-        getDate();
+        checkDate();
     }//GEN-LAST:event_searchActionPerformed
 
     private void inputNgayTraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputNgayTraActionPerformed
@@ -256,6 +269,32 @@ public class SearchHotel extends javax.swing.JFrame {
     private void inputNgayNhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputNgayNhanActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_inputNgayNhanActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        inputNgayNhan.setEditable(true);
+        inputNgayNhan.setFocusable(true);
+        DatePicker datePicker = new DatePicker();
+        datePicker.setDateToToday();//đặt mặc định là hôm nay
+        inputNgayNhan.setText(datePicker.getDateStringOrEmptyString());
+        datePicker.addDateChangeListener((dce) -> {
+            inputNgayNhan.setText(datePicker.getDateStringOrEmptyString());//set text cho cái textfiled from
+        });
+        JOptionPane.showMessageDialog(this, datePicker, "Chọn ngày nhận phòng", JOptionPane.PLAIN_MESSAGE);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        inputNgayTra.setEditable(true);
+        inputNgayTra.setFocusable(true);
+        DatePicker datePicker = new DatePicker();
+        datePicker.setDateToToday();//đặt mặc định là hôm nay
+        inputNgayTra.setText(datePicker.getDateStringOrEmptyString());
+        datePicker.addDateChangeListener((dce) -> {
+            inputNgayTra.setText(datePicker.getDateStringOrEmptyString());//set text cho cái textfiled from
+        });
+        JOptionPane.showMessageDialog(this, datePicker, "Chọn ngày trả phòng", JOptionPane.PLAIN_MESSAGE);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -294,17 +333,17 @@ public class SearchHotel extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel KhachSan;
+    private javax.swing.JTable danhsachHotel;
     private javax.swing.JTextField inputNgayNhan;
     private javax.swing.JTextField inputNgayTra;
     private javax.swing.JPanel inputdate;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
-    private com.toedter.calendar.JCalendar ngaynhan;
-    private com.toedter.calendar.JCalendar ngaytra;
     private javax.swing.JButton search;
     // End of variables declaration//GEN-END:variables
 }
